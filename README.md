@@ -21,11 +21,10 @@ python link_path.py --csv="/your_local_full_path/example.csv" --path="/full_path
 <p>
 Run get_robv2.py to get the RoB response for each research from the list in example.csv<p>
 Since OpenAI frequently changes the policy for max token limitation, get_robv2.py adds the function to truncate the excessive tokens read from the PDF files, given the current policy.<p>
-python get_rob.py --api_key="api_key.txt" --csv="/full_path/example.csv" --output="/full_path/outputs" --model="gpt-5"<p>
-or<p>
+<p>
 python get_robv2.py --api_key="api_key.txt" --csv="/full_path/example.csv" --output="/full_path/outputs" --model="gpt-5"<p>
 <p>
---api_key: the text file containing the OpenAI api_key <p>
+--api_key: the text file containing the OpenAI api_key, please use your own API key <p>
 --csv: the table with study name and path to the PDF file <p>
 --output: the path to the folder for the response, each response will be saved to a sub-folder named by the study name, in a JSON file all named by the study name. <p>
 --model: GPT models: gpt-5, o3-mini, gpt-3.5-turbo, gpt-4o, etc. <p>
