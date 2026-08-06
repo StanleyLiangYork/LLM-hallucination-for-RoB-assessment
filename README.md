@@ -19,7 +19,7 @@ The RoB revieweds by human reviewers are saved in the format as the file example
 Add the full path of the PDF full papers to a new column named 'path' in example.csv after running the following script. A script named "link_path.py" is provided for this purpose.<p>
 python link_path.py --csv="/your_local_full_path/example.csv" --path="/full_path_pdfs"<p>
 <p>
-Run get_rob.py or get_robv2.py to get the RoB response for each research from the list in example.csv<p>
+Run get_robv2.py to get the RoB response for each research from the list in example.csv<p>
 Since OpenAI frequently changes the policy for max token limitation, get_robv2.py adds the function to truncate the excessive tokens read from the PDF files, given the current policy.<p>
 python get_rob.py --api_key="api_key.txt" --csv="/full_path/example.csv" --output="/full_path/outputs" --model="gpt-5"<p>
 or<p>
