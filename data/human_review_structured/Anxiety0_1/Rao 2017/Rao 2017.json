@@ -1,0 +1,600 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1.1: Y;",
+    "source_occurrences": [
+      "1.1: Y;"
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"All the subjects were given a serial number based on\nalphabetical order of their names. The participants were\nrandomly divided into an MSRT group (n = 30) and a control\ngroup (n = 30) using computer-based random number\ngenerating software.\"",
+    "source_text": "1.2: PY. Quote: \"All the subjects were given a serial number based on\nalphabetical order of their names. The participants were\nrandomly divided into an MSRT group (n = 30) and a control\ngroup (n = 30) using computer-based random number\ngenerating software.\"",
+    "source_occurrences": [
+      "1.2: PY. Quote: \"All the subjects were given a serial number based on\nalphabetical order of their names. The participants were\nrandomly divided into an MSRT group (n = 30) and a control\ngroup (n = 30) using computer-based random number\ngenerating software.\""
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote:\"No significant differences existed in participants’ ages,\nsocioeconomic statuses, and educational backgrounds\nbetween the groups.\"",
+    "source_text": "1.3: N. Quote:\"No significant differences existed in participants’ ages,\nsocioeconomic statuses, and educational backgrounds\nbetween the groups.\"",
+    "source_occurrences": [
+      "1.3: N. Quote:\"No significant differences existed in participants’ ages,\nsocioeconomic statuses, and educational backgrounds\nbetween the groups.\""
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.1",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1: PY;",
+    "source_occurrences": [
+      "2.1: PY;"
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Due to the nature of the intervention participants were most likely aware of the intervention. The yoga teacher delivering the intervention was also aware of allocation. No information on blinding provided on the other members of the research team. One of the stated limitations is \"lack of proper blinding\"",
+    "source_text": "2.2: Y. Note: Due to the nature of the intervention participants were most likely aware of the intervention. The yoga teacher delivering the intervention was also aware of allocation. No information on blinding provided on the other members of the research team. One of the stated limitations is \"lack of proper blinding\"",
+    "source_occurrences": [
+      "2.2: Y. Note: Due to the nature of the intervention participants were most likely aware of the intervention. The yoga teacher delivering the intervention was also aware of allocation. No information on blinding provided on the other members of the research team. One of the stated limitations is \"lack of proper blinding\""
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest issues in recruitment and engagement nor failures to implement intervention",
+    "source_text": "2.3: PN. Note: No evidence to suggest issues in recruitment and engagement nor failures to implement intervention",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest issues in recruitment and engagement nor failures to implement intervention"
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No explicit mention of the analysis used to estimate the effect of assignment to intervention. Results table are reported for all the randomized participants (n=30 participants in the intervention and n=30 in the control group)",
+    "source_text": "2.6: PY. No explicit mention of the analysis used to estimate the effect of assignment to intervention. Results table are reported for all the randomized participants (n=30 participants in the intervention and n=30 in the control group).",
+    "source_occurrences": [
+      "2.6: PY. No explicit mention of the analysis used to estimate the effect of assignment to intervention. Results table are reported for all the randomized participants (n=30 participants in the intervention and n=30 in the control group)."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "3.1",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Tables indicate that the number of participants for cases and controls is equal to 30. There is no specification on number of participants that may have been lost at follow-up. Tables report data for the 60 randomized participants. As the methods indicate that only participants attending 70% + of sessions would be included in the study, it can be deduced that no losses at follow-up could be observed",
+    "source_text": "3.1: PY. Note: Tables indicate that the number of participants for cases and controls is equal to 30. There is no specification on number of participants that may have been lost at follow-up. Tables report data for the 60 randomized participants. As the methods indicate that only participants attending 70% + of sessions would be included in the study, it can be deduced that no losses at follow-up could be observed.",
+    "source_occurrences": [
+      "3.1: PY. Note: Tables indicate that the number of participants for cases and controls is equal to 30. There is no specification on number of participants that may have been lost at follow-up. Tables report data for the 60 randomized participants. As the methods indicate that only participants attending 70% + of sessions would be included in the study, it can be deduced that no losses at follow-up could be observed."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"valid and reliable tool\"; \"It is the most widely used psychological instrument for measuring the perception of stress. It consists of 10 items.\"",
+    "source_text": "4.1: N. Quote: \"valid and reliable tool\"; \"It is the most widely used psychological instrument for measuring the perception of stress. It consists of 10 items.\"",
+    "source_occurrences": [
+      "4.1: N. Quote: \"valid and reliable tool\"; \"It is the most widely used psychological instrument for measuring the perception of stress. It consists of 10 items.\""
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "4.3",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Outcome assessors (teachers) were most likely aware of intervention allocation",
+    "source_text": "4.3: Y. Note: Outcome assessors (teachers) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "4.3: Y. Note: Outcome assessors (teachers) were most likely aware of intervention allocation."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "no evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: no evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: no evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection. All outcomes mentioned in the methods and results are reported",
+    "source_text": "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods and results are reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods and results are reported."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported."
+    ],
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "study": "Rao 2017",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      130
+    ]
+  }
+]

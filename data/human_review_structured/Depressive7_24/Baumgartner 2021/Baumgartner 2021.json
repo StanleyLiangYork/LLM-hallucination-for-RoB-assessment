@@ -1,0 +1,710 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "1a.1: PY;",
+    "source_occurrences": [
+      "1a.1: PY;"
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Researchers performed stratified constrained randomization. This was carried out through software. Quote: \"Constrained randomization was implemented using the cvcrand Stata package by the US-based team\"",
+    "source_text": "1a.2: PY. Researchers performed stratified constrained randomization. This was carried out through software. Quote: \"Constrained randomization was implemented using the cvcrand Stata package by the US-based team\".",
+    "source_occurrences": [
+      "1a.2: PY. Researchers performed stratified constrained randomization. This was carried out through software. Quote: \"Constrained randomization was implemented using the cvcrand Stata package by the US-based team\"."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No useful information is reported to evaluate this element",
+    "source_text": "1a.3: NI. No useful information is reported to evaluate this element.",
+    "source_occurrences": [
+      "1a.3: NI. No useful information is reported to evaluate this element."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "It appears the randomization was conducted prior to the recruitment of participants:",
+    "source_text": "1b.1: PN. It appears the randomization was conducted prior to the recruitment of participants:",
+    "source_occurrences": [
+      "1b.1: PN. It appears the randomization was conducted prior to the recruitment of participants:"
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "It is unlikely that the selection of individual participants was affected by knowledge of the intervention assigned to the cluster",
+    "source_text": "1b.2: PN. It is unlikely that the selection of individual participants was affected by knowledge of the intervention assigned to the cluster.",
+    "source_occurrences": [
+      "1b.2: PN. It is unlikely that the selection of individual participants was affected by knowledge of the intervention assigned to the cluster."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "There were some baseline imbalances that were compatible with chance, there is no evidence to indicate differential identification or recruitment of individual participants",
+    "source_text": "1b.3: PN. There were some baseline imbalances that were compatible with chance, there is no evidence to indicate differential identification or recruitment of individual participants.",
+    "source_occurrences": [
+      "1b.3: PN. There were some baseline imbalances that were compatible with chance, there is no evidence to indicate differential identification or recruitment of individual participants."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b: PY;",
+    "source_occurrences": [
+      "2.1b: PY;"
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information was provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation",
+    "source_text": "2.2: PY. No information was provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "2.2: PY. No information was provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "The low literacy of the lay providers could have impacted implementation fidelity. Quote: \"This strategy supported the potential sustainability of the intervention but came with literacy challenges for delivering the iMBC content with full fidelity\"",
+    "source_text": "2.3: PY. The low literacy of the lay providers could have impacted implementation fidelity. Quote: \"This strategy supported the potential sustainability of the intervention but came with literacy challenges for delivering the iMBC content with full fidelity\".",
+    "source_occurrences": [
+      "2.3: PY. The low literacy of the lay providers could have impacted implementation fidelity. Quote: \"This strategy supported the potential sustainability of the intervention but came with literacy challenges for delivering the iMBC content with full fidelity\"."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention would have influenced the outcomes",
+    "source_text": "2.4: PN. No evidence to suggest deviations from the intended intervention would have influenced the outcomes.",
+    "source_occurrences": [
+      "2.4: PN. No evidence to suggest deviations from the intended intervention would have influenced the outcomes."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Data were analysed for most randomized participants",
+    "source_text": "2.6: PY. Data were analysed for most randomized participants.",
+    "source_occurrences": [
+      "2.6: PY. Data were analysed for most randomized participants."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "All included clusters were analyzed",
+    "source_text": "3.1a: PY. All included clusters were analyzed.",
+    "source_occurrences": [
+      "3.1a: PY. All included clusters were analyzed."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Data were available for nearly all participants within the cluster. Quote: \"303 (81%), 313 (83.7%), and 266 (71.1%) participants were followed up at the mini-survey, imme- diate post-intervention survey (follow-up 1), and the 8-month post- intervention survey (follow-up 2) time points, respectively \"",
+    "source_text": "3.1b: PY. Data were available for nearly all participants within the cluster. Quote: \"303 (81%), 313 (83.7%), and 266 (71.1%) participants were followed up at the mini-survey, imme- diate post-intervention survey (follow-up 1), and the 8-month post- intervention survey (follow-up 2) time points, respectively \".",
+    "source_occurrences": [
+      "3.1b: PY. Data were available for nearly all participants within the cluster. Quote: \"303 (81%), 313 (83.7%), and 266 (71.1%) participants were followed up at the mini-survey, imme- diate post-intervention survey (follow-up 1), and the 8-month post- intervention survey (follow-up 2) time points, respectively \"."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The outcome measure is well established and reported good psychometric properties in this sample",
+    "source_text": "4.1: N. The outcome measure is well established and reported good psychometric properties in this sample.",
+    "source_occurrences": [
+      "4.1: N. The outcome measure is well established and reported good psychometric properties in this sample."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control",
+    "source_text": "4.2: PN. No evidence to suggest differences in measurement between intervention and control.",
+    "source_occurrences": [
+      "4.2: PN. No evidence to suggest differences in measurement between intervention and control."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3A: NI;",
+    "source_occurrences": [
+      "4.3A: NI;"
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention.",
+    "source_occurrences": [
+      "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcomes selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.2: PN. No evidence to suggest outcomes selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. No evidence to suggest outcomes selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "study": "Baumgartner 2021",
+    "topic": "Depressive symptoms at 7-24 months",
+    "topic_slug": "Depressive7_24",
+    "analysis_names": [
+      "Depressive symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      119
+    ]
+  }
+]

@@ -1,0 +1,776 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1a.1: Y;",
+    "source_occurrences": [
+      "1a.1: Y;"
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"Thirty UCs were randomized to intervention and control arms on a 1:1 allocation ratio using a permuted-block randomization method (...) by an independent researcher not involved in the conduct of the trialbefore the recruitment of participants in the study\". Quote: \"The outcome assessment team, trial statistician and principal investigator were blind to the allocation status of trial participants.\"",
+    "source_text": "1a.2: Y. Quote: \"Thirty UCs were randomized to intervention and control arms on a 1:1 allocation ratio using a permuted-block randomization method (...) by an independent researcher not involved in the conduct of the trialbefore the recruitment of participants in the study\". Quote: \"The outcome assessment team, trial statistician and principal investigator were blind to the allocation status of trial participants.\"",
+    "source_occurrences": [
+      "1a.2: Y. Quote: \"Thirty UCs were randomized to intervention and control arms on a 1:1 allocation ratio using a permuted-block randomization method (...) by an independent researcher not involved in the conduct of the trialbefore the recruitment of participants in the study\". Quote: \"The outcome assessment team, trial statistician and principal investigator were blind to the allocation status of trial participants.\""
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"There was no significant difference between the intervention and control arms in demographic characteristics\"",
+    "source_text": "1a.3: N. Quote: \"There was no significant difference between the intervention and control arms in demographic characteristics\".",
+    "source_occurrences": [
+      "1a.3: N. Quote: \"There was no significant difference between the intervention and control arms in demographic characteristics\"."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "It seems that all the individual participants were identified and recruited after randomization of clusters",
+    "source_text": "1b.1: PN. It seems that all the individual participants were identified and recruited after randomization of clusters.",
+    "source_occurrences": [
+      "1b.1: PN. It seems that all the individual participants were identified and recruited after randomization of clusters."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "There is no evidence to suggest that selection was affected by knowledge of the intervention assigned to the cluster",
+    "source_text": "1b.2: PN. There is no evidence to suggest that selection was affected by knowledge of the intervention assigned to the cluster.",
+    "source_occurrences": [
+      "1b.2: PN. There is no evidence to suggest that selection was affected by knowledge of the intervention assigned to the cluster."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Some baseline imbalances are presents but compatible with chance",
+    "source_text": "1b.3: PN. Some baseline imbalances are presents but compatible with chance.",
+    "source_occurrences": [
+      "1b.3: PN. Some baseline imbalances are presents but compatible with chance."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "2.1b: Y;",
+    "source_occurrences": [
+      "2.1b: Y;"
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"The trained research team along with LHW will approach the families within the evaluation zones of the UCs to seek informed consent for participation in the trial.\"; Quote: \"Given the nature of WHO PST programme intervention, it is not possible tom ask the participants and facilitators, as well as the qualitative research team staff\"",
+    "source_text": "2.2: Y. Quote: \"The trained research team along with LHW will approach the families within the evaluation zones of the UCs to seek informed consent for participation in the trial.\"; Quote: \"Given the nature of WHO PST programme intervention, it is not possible tom ask the participants and facilitators, as well as the qualitative research team staff\".",
+    "source_occurrences": [
+      "2.2: Y. Quote: \"The trained research team along with LHW will approach the families within the evaluation zones of the UCs to seek informed consent for participation in the trial.\"; Quote: \"Given the nature of WHO PST programme intervention, it is not possible tom ask the participants and facilitators, as well as the qualitative research team staff\"."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to indicate deviations from protocol",
+    "source_text": "2.3: PN. No evidence to indicate deviations from protocol.",
+    "source_occurrences": [
+      "2.3: PN. No evidence to indicate deviations from protocol."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"The data was analysed using SAS 9.3 on intentiont to treat basis\"",
+    "source_text": "2.6: Y. Quote: \"The data was analysed using SAS 9.3 on intentiont to treat basis\".",
+    "source_occurrences": [
+      "2.6: Y. Quote: \"The data was analysed using SAS 9.3 on intentiont to treat basis\"."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "No evidence to suggest cluster loss",
+    "source_text": "3.1a: Y. No evidence to suggest cluster loss.;",
+    "source_occurrences": [
+      "3.1a: Y. No evidence to suggest cluster loss.;"
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"We were able to collect primary endpoint data at 6 months’ post-intervention from 460/540 (85.18%) trial. participants.\"",
+    "source_text": "3.1b: PY. Quote: \"We were able to collect primary endpoint data at 6 months’ post-intervention from 460/540 (85.18%) trial. participants.\"",
+    "source_occurrences": [
+      "3.1b: PY. Quote: \"We were able to collect primary endpoint data at 6 months’ post-intervention from 460/540 (85.18%) trial. participants.\""
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The selected outcome method (Pediatric Quality of Life - Peds-QL) is widely validated and established. Peds-QL has shown sound psychometric properties in different cultures",
+    "source_text": "4.1: N. The selected outcome method (Pediatric Quality of Life - Peds-QL) is widely validated and established. Peds-QL has shown sound psychometric properties in different cultures.",
+    "source_occurrences": [
+      "4.1: N. The selected outcome method (Pediatric Quality of Life - Peds-QL) is widely validated and established. Peds-QL has shown sound psychometric properties in different cultures."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups",
+    "source_text": "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups.",
+    "source_occurrences": [
+      "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "4.3a: PN;",
+    "source_occurrences": [
+      "4.3a: PN;"
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "Quote: \"All researchers conducting pre-post quantitative outcome assessments will be masked in the trial.\"",
+    "source_text": "4.3b: NA. Quote: \"All researchers conducting pre-post quantitative outcome assessments will be masked in the trial.\".",
+    "source_occurrences": [
+      "4.3b: NA. Quote: \"All researchers conducting pre-post quantitative outcome assessments will be masked in the trial.\"."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "4.4: NA;",
+    "source_occurrences": [
+      "4.4: NA;"
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "4.5: NA",
+    "source_occurrences": [
+      "4.5: NA"
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Protocol is available. No evidence to suggest otherwise, protocol and manuscript do not show discrepancies",
+    "source_text": "5.1: PY. Protocol is available. No evidence to suggest otherwise, protocol and manuscript do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Protocol is available. No evidence to suggest otherwise, protocol and manuscript do not show discrepancies."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcomes selection. All outcomes mentioned in the methods and protocol were reported",
+    "source_text": "5.2: PN. No evidence to suggest outcomes selection. All outcomes mentioned in the methods and protocol were reported.",
+    "source_occurrences": [
+      "5.2: PN. No evidence to suggest outcomes selection. All outcomes mentioned in the methods and protocol were reported."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All outcomes mentioned in the methods and protocol were reported",
+    "source_text": "5.3: PN. No evidence to suggest analyses selection. All outcomes mentioned in the methods and protocol were reported.",
+    "source_occurrences": [
+      "5.3: PN. No evidence to suggest analyses selection. All outcomes mentioned in the methods and protocol were reported."
+    ],
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "The study is judged to be at low risk of bias for all domains.",
+    "source_text": "The study is judged to be at low risk of bias for all domains.",
+    "study": "Hamdani 2021a",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months",
+      "Quality of life at 1-6 months—selective prevention adults"
+    ],
+    "csv_row_numbers": [
+      25,
+      252
+    ]
+  }
+]

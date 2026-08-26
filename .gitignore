@@ -1,0 +1,34 @@
+# Secrets
+.env
+*.key
+apikey.txt
+api_key.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated outputs
+outputs/
+claims/
+reports/
+run_manifest_*.csv
+
+# Third-party source documents are local-only
+data/**/*.pdf
+data/**/*.PDF
+
+# Legacy local intermediates outside the reproducible release
+data/human_review/
+data/original_data/
+data/pdf_path.csv
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

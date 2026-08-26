@@ -1,0 +1,689 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"This was a cluster-randomized controlled trial (school as a sample selection unit)",
+    "source_text": "1a.1: Y. Quote: \"This was a cluster-randomized controlled trial (school as a sample selection unit).",
+    "source_occurrences": [
+      "1a.1: Y. Quote: \"This was a cluster-randomized controlled trial (school as a sample selection unit)."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"All directors agreed to participate without being informed which treatment group the schools would be assigned to in the study. Thus, we performed the random selection of three schools to each condition (intervention and control)\"Overall comment: Low Risk",
+    "source_text": "1b.1:Y. Quote: \"All directors agreed to participate without being informed which treatment group the schools would be assigned to in the study. Thus, we performed the random selection of three schools to each condition (intervention and control)\"Overall comment: Low Risk.\n1b.1:Y. Quote: \"All directors agreed to participate without being informed which treatment group the schools would be assigned to in the study. Thus, we performed the random selection of three schools to each condition (intervention and control)\"Overall comment: Low Risk.",
+    "source_occurrences": [
+      "1b.1:Y. Quote: \"All directors agreed to participate without being informed which treatment group the schools would be assigned to in the study. Thus, we performed the random selection of three schools to each condition (intervention and control)\"Overall comment: Low Risk.",
+      "1b.1:Y. Quote: \"All directors agreed to participate without being informed which treatment group the schools would be assigned to in the study. Thus, we performed the random selection of three schools to each condition (intervention and control)\"Overall comment: Low Risk."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"We performed a random selection of three schools to each condition (intervention or control)\"",
+    "source_text": "1.2: PY. Quote: \"We performed a random selection of three schools to each condition (intervention or control)\".",
+    "source_occurrences": [
+      "1.2: PY. Quote: \"We performed a random selection of three schools to each condition (intervention or control)\"."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: Differences at baseline between control and intervention students were found for support of school's teachers, safety in neighborhood, PA facilities in neighborhood, and PA facilities in school\"\nBut there are not relevant",
+    "source_text": "1.3: N. Quote: Differences at baseline between control and intervention students were found for support of school's teachers, safety in neighborhood, PA facilities in neighborhood, and PA facilities in school\"\nBut there are not relevant.",
+    "source_occurrences": [
+      "1.3: N. Quote: Differences at baseline between control and intervention students were found for support of school's teachers, safety in neighborhood, PA facilities in neighborhood, and PA facilities in school\"\nBut there are not relevant."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Parent/guardian provoded informed consent, no information on what specifications they were given is provided",
+    "source_text": "2.1a: NI. Parent/guardian provoded informed consent, no information on what specifications they were given is provided.",
+    "source_occurrences": [
+      "2.1a: NI. Parent/guardian provoded informed consent, no information on what specifications they were given is provided."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Participants (students) were most likely aware of their assigned intervention due to the nature of the intervention itself",
+    "source_text": "2.1b: PY. Participants (students) were most likely aware of their assigned intervention due to the nature of the intervention itself.",
+    "source_occurrences": [
+      "2.1b: PY. Participants (students) were most likely aware of their assigned intervention due to the nature of the intervention itself."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"The participation of the students involved in this study was authorized by the parent/guardian by signing the informed consent.\"\"All teacher from the three intervention schools were invited to participate in training (...)\"",
+    "source_text": "2.2: Y. Quote: \"The participation of the students involved in this study was authorized by the parent/guardian by signing the informed consent.\"\"All teacher from the three intervention schools were invited to participate in training (...)\"",
+    "source_occurrences": [
+      "2.2: Y. Quote: \"The participation of the students involved in this study was authorized by the parent/guardian by signing the informed consent.\"\"All teacher from the three intervention schools were invited to participate in training (...)\""
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention that arose because of the trial context",
+    "source_text": "2.3: PN. Note: No evidence to suggest deviations from the intended intervention that arose because of the trial context.",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest deviations from the intended intervention that arose because of the trial context."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information provided",
+    "source_text": "2.6: NI. Note: No information provided.",
+    "source_occurrences": [
+      "2.6: NI. Note: No information provided."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Quote: \"response rate of 93.2% and 90.4% in intervention and control schools, respectively\"",
+    "source_text": "2.7: PN. Quote: \"response rate of 93.2% and 90.4% in intervention and control schools, respectively\"",
+    "source_occurrences": [
+      "2.7: PN. Quote: \"response rate of 93.2% and 90.4% in intervention and control schools, respectively\""
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "All clusters that recruited participants were analyzed",
+    "source_text": "3.1a: PY. All clusters that recruited participants were analyzed.",
+    "source_occurrences": [
+      "3.1a: PY. All clusters that recruited participants were analyzed."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Data was available for almost all participants (93.2% and 90.4% in intervention and control group",
+    "source_text": "3.1b: PY. Data was available for almost all participants (93.2% and 90.4% in intervention and control group",
+    "source_occurrences": [
+      "3.1b: PY. Data was available for almost all participants (93.2% and 90.4% in intervention and control group"
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"all variables showed acceptable test-retest two wekks apart) reliability\"",
+    "source_text": "4.1: N. Quote: \"all variables showed acceptable test-retest two wekks apart) reliability\"",
+    "source_occurrences": [
+      "4.1: N. Quote: \"all variables showed acceptable test-retest two wekks apart) reliability\""
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control groups",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control groups",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control groups"
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "4.3a: Y;",
+    "source_occurrences": [
+      "4.3a: Y;"
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"Evaluators were not blinded to which schools were in the intervention and control treatments\"",
+    "source_text": "4.3b: Y. Quote: \"Evaluators were not blinded to which schools were in the intervention and control treatments\"",
+    "source_occurrences": [
+      "4.3b: Y. Quote: \"Evaluators were not blinded to which schools were in the intervention and control treatments\""
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "evidence to suggest otherwise, protocol and final article not show discrepancies",
+    "source_text": "5.1: PY. Note: evidence to suggest otherwise, protocol and final article not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: evidence to suggest otherwise, protocol and final article not show discrepancies."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "no evidence to suggest outcome selection. Further outcomes than those mentioned in the protocol were reported",
+    "source_text": "5.2: PN. Note: no evidence to suggest outcome selection. Further outcomes than those mentioned in the protocol were reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: no evidence to suggest outcome selection. Further outcomes than those mentioned in the protocol were reported."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. Alla analyses mentioned and results were reported",
+    "source_text": "5.3: PN. No evidence to suggest analyses selection. Alla analyses mentioned and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. No evidence to suggest analyses selection. Alla analyses mentioned and results were reported."
+    ],
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "study": "Barbosa Filho 2017",
+    "topic": "Social outcomes at 0-1 months",
+    "topic_slug": "Social0_1",
+    "analysis_names": [
+      "Social outcomes at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      195
+    ]
+  }
+]

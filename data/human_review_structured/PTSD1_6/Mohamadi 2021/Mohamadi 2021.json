@@ -1,0 +1,710 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1a.1: Y;",
+    "source_occurrences": [
+      "1a.1: Y;"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "The auhtors describe a multi-stage randomization process based upon simple randomization. No information on allocation concealment is provided",
+    "source_text": "1a.2: NI. The auhtors describe a multi-stage randomization process based upon simple randomization. No information on allocation concealment is provided",
+    "source_occurrences": [
+      "1a.2: NI. The auhtors describe a multi-stage randomization process based upon simple randomization. No information on allocation concealment is provided"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No useful information is reported to evaluate this element",
+    "source_text": "1a.3: NI. No useful information is reported to evaluate this element.",
+    "source_occurrences": [
+      "1a.3: NI. No useful information is reported to evaluate this element."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "It appears the randomization was conducted prior to the recruitment of participants",
+    "source_text": "1b.1: PN. It appears the randomization was conducted prior to the recruitment of participants",
+    "source_occurrences": [
+      "1b.1: PN. It appears the randomization was conducted prior to the recruitment of participants"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "It is unlikely that the selection of inidividual participants was affected by knowledge of the intervention assigned to the cluster, as all students from the selected schools and class were elegible",
+    "source_text": "1b.2: PN. It is unlikely that the selection of inidividual participants was affected by knowledge of the intervention assigned to the cluster, as all students from the selected schools and class were elegible",
+    "source_occurrences": [
+      "1b.2: PN. It is unlikely that the selection of inidividual participants was affected by knowledge of the intervention assigned to the cluster, as all students from the selected schools and class were elegible"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "There is no evidence to indicate imbalances in baseline values to indicate differentail identification or recruitment of individual participants",
+    "source_text": "1b.3: PN. There is no evidence to indicate imbalances in baseline values to indicate differentail identification or recruitment of individual participants",
+    "source_occurrences": [
+      "1b.3: PN. There is no evidence to indicate imbalances in baseline values to indicate differentail identification or recruitment of individual participants"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b: PY;",
+    "source_occurrences": [
+      "2.1b: PY;"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation,",
+    "source_text": "2.2: PY. No information provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation,",
+    "source_occurrences": [
+      "2.2: PY. No information provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation,"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"One of the advantages of this study is a large sample size and of the limitations of this study was poor cooperation between schools and students to hold sessions. For this, the class hours were coordinated with the high school principal, teachers, and students. In order to increase the cooperation of the students, they were given prizes and served with food and snacks\"",
+    "source_text": "2.3: PY. Quote: \"One of the advantages of this study is a large sample size and of the limitations of this study was poor cooperation between schools and students to hold sessions. For this, the class hours were coordinated with the high school principal, teachers, and students. In order to increase the cooperation of the students, they were given prizes and served with food and snacks\".",
+    "source_occurrences": [
+      "2.3: PY. Quote: \"One of the advantages of this study is a large sample size and of the limitations of this study was poor cooperation between schools and students to hold sessions. For this, the class hours were coordinated with the high school principal, teachers, and students. In order to increase the cooperation of the students, they were given prizes and served with food and snacks\"."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention vould have influenced the outcomes",
+    "source_text": "2.4: PN. No evidence to suggest deviations from the intended intervention vould have influenced the outcomes.",
+    "source_occurrences": [
+      "2.4: PN. No evidence to suggest deviations from the intended intervention vould have influenced the outcomes."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": null,
+    "response_raw": null,
+    "numerical": null,
+    "comment": ": Not enough information provided to give a judjment on this item",
+    "source_text": "2.6: Not enough information provided to give a judjment on this item.",
+    "source_occurrences": [
+      "2.6: Not enough information provided to give a judjment on this item."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": null,
+    "response_raw": null,
+    "numerical": null,
+    "comment": ": Not enough information provided to give a judjment on this item",
+    "source_text": "2.7: Not enough information provided to give a judjment on this item.",
+    "source_occurrences": [
+      "2.7: Not enough information provided to give a judjment on this item."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information provied on the number of clusters analyzed at endline",
+    "source_text": "3.1a: NI. No information provied on the number of clusters analyzed at endline",
+    "source_occurrences": [
+      "3.1a: NI. No information provied on the number of clusters analyzed at endline"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information provied on the number of participants analyzed at endline",
+    "source_text": "3.1b: NI. No information provied on the number of participants analyzed at endline",
+    "source_occurrences": [
+      "3.1b: NI. No information provied on the number of participants analyzed at endline"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Not enough information provided to give a judjment on this item",
+    "source_text": "3.2: NI. Not enough information provided to give a judjment on this item.",
+    "source_occurrences": [
+      "3.2: NI. Not enough information provided to give a judjment on this item."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Not enough information provided to give a judjment on this item",
+    "source_text": "3.3: NI. Not enough information provided to give a judjment on this item.",
+    "source_occurrences": [
+      "3.3: NI. Not enough information provided to give a judjment on this item."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Not enough information provided to give a judjment on this item",
+    "source_text": "3.4: NI. Not enough information provided to give a judjment on this item.",
+    "source_occurrences": [
+      "3.4: NI. Not enough information provided to give a judjment on this item."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The outcome measure is widely established and validated for use across different contexts",
+    "source_text": "4.1: N. The outcome measure is widely established and validated for use across different contexts.",
+    "source_occurrences": [
+      "4.1: N. The outcome measure is widely established and validated for use across different contexts."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups",
+    "source_text": "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups.",
+    "source_occurrences": [
+      "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a: NI;",
+    "source_occurrences": [
+      "4.3a: NI;"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention.",
+    "source_occurrences": [
+      "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcomes selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.2: PN. No evidence to suggest outcomes selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. No evidence to suggest outcomes selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "The study is judged to be at high risk of bias in two domains (2 and 3).",
+    "source_text": "The study is judged to be at high risk of bias in two domains (2 and 3).",
+    "study": "Mohamadi 2021",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      193
+    ]
+  }
+]

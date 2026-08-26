@@ -1,0 +1,666 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1a.1: Y;",
+    "source_occurrences": [
+      "1a.1: Y;"
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"The principal of this school randomply chose (by tossing a coin) to implement the ESPS (experimental group) in only one of the two classes in each of the 4th-6th grades, while the other classes participated in Social Studies (SS, control group).\"",
+    "source_text": "1a.2: PY. Quote: \"The principal of this school randomply chose (by tossing a coin) to implement the ESPS (experimental group) in only one of the two classes in each of the 4th-6th grades, while the other classes participated in Social Studies (SS, control group).\"",
+    "source_occurrences": [
+      "1a.2: PY. Quote: \"The principal of this school randomply chose (by tossing a coin) to implement the ESPS (experimental group) in only one of the two classes in each of the 4th-6th grades, while the other classes participated in Social Studies (SS, control group).\""
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"No significant differences were found at baseline (prior to the intervention) between the intervention and control group for any of the outcome measures\"",
+    "source_text": "1.3: N. Quote: \"No significant differences were found at baseline (prior to the intervention) between the intervention and control group for any of the outcome measures\"",
+    "source_occurrences": [
+      "1.3: N. Quote: \"No significant differences were found at baseline (prior to the intervention) between the intervention and control group for any of the outcome measures\""
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"The ESPS program was presented to all the principals from the primary schools in the Meru district. (...). Since we had limited funds, we randomly chose (by tossic dice) one school for the study.\"",
+    "source_text": "1b.1: Y. Quote: \"The ESPS program was presented to all the principals from the primary schools in the Meru district. (...). Since we had limited funds, we randomly chose (by tossic dice) one school for the study.\"",
+    "source_occurrences": [
+      "1b.1: Y. Quote: \"The ESPS program was presented to all the principals from the primary schools in the Meru district. (...). Since we had limited funds, we randomly chose (by tossic dice) one school for the study.\""
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1a: PY;",
+    "source_occurrences": [
+      "2.1a: PY;"
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"All the parents or guardians whose children were assigned to the ESPS consented to their children's participation in the study and expressed support for the program\"",
+    "source_text": "2.1b: PY. Quote: \"All the parents or guardians whose children were assigned to the ESPS consented to their children's participation in the study and expressed support for the program\"",
+    "source_occurrences": [
+      "2.1b: PY. Quote: \"All the parents or guardians whose children were assigned to the ESPS consented to their children's participation in the study and expressed support for the program\""
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "The teachers were trained in a workshop by the first author for the experimental exercises\"",
+    "source_text": "2.2: Y. The teachers were trained in a workshop by the first author for the experimental exercises\"",
+    "source_occurrences": [
+      "2.2: Y. The teachers were trained in a workshop by the first author for the experimental exercises\""
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention that arose because of the trial context",
+    "source_text": "2.3: PN. Note: No evidence to suggest deviations from the intended intervention that arose because of the trial context.",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest deviations from the intended intervention that arose because of the trial context."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Not enough information provided to give a judgemnet on this item",
+    "source_text": "2.6: NI. Note: Not enough information provided to give a judgemnet on this item.",
+    "source_occurrences": [
+      "2.6: NI. Note: Not enough information provided to give a judgemnet on this item."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that failure to analyzed participants in randomized groups could a substantial impact on the results",
+    "source_text": "2.7: PN. Note: No evidence to suggest that failure to analyzed participants in randomized groups could a substantial impact on the results.",
+    "source_occurrences": [
+      "2.7: PN. Note: No evidence to suggest that failure to analyzed participants in randomized groups could a substantial impact on the results."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest cluster loss",
+    "source_text": "3.1a:PY. No evidence to suggest cluster loss.",
+    "source_occurrences": [
+      "3.1a:PY. No evidence to suggest cluster loss."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The selected outcome method (Spence Anxiety scale for children-SCAS) is validated and established. Quote: \"Cronbach alpha in current sample was 0.74)\"",
+    "source_text": "4.1: N. Note: The selected outcome method (Spence Anxiety scale for children-SCAS) is validated and established. Quote: \"Cronbach alpha in current sample was 0.74)\"",
+    "source_occurrences": [
+      "4.1: N. Note: The selected outcome method (Spence Anxiety scale for children-SCAS) is validated and established. Quote: \"Cronbach alpha in current sample was 0.74)\""
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups",
+    "source_text": "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups.",
+    "source_occurrences": [
+      "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a: NI;",
+    "source_occurrences": [
+      "4.3a: NI;"
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention.",
+    "source_occurrences": [
+      "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No protocol available",
+    "source_text": "5.1: PY. Note: No protocol available.",
+    "source_occurrences": [
+      "5.1: PY. Note: No protocol available."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evdience to suggest outcome selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.2: PN. Note: No evdience to suggest outcome selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evdience to suggest outcome selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "no evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: no evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: no evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "study": "Berger 2018",
+    "topic": "Anxiety symptoms at 0-1 months",
+    "topic_slug": "Anxiety0_1",
+    "analysis_names": [
+      "Anxiety symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      188
+    ]
+  }
+]

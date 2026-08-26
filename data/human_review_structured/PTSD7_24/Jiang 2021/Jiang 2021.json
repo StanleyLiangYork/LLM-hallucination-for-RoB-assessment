@@ -1,0 +1,556 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Title mentions RCT design. Quote: \"The block randomization with blocks of wight was conducted at the patients' individual level to split the patients at a ratio of 1:1 to an intervention or control group\".\n2.2: Y. Quote: \"The random allocation sequence generated with programming of SPSS 17.0 by the researcher was sealed in opaque envelopes. The research nurse was charged with grouping. When the recruitment number of patients reached, the nurse opened an opaque envelope to figure out the group the patients belonged to.\"\n2.3: N. Quote: \"the demographic characteristics, and the comparisons of age, gender, marital status, education level, employment status, individual income, medical insurance, years of taking medicine, medication use and diabetes complications that were comparable between the two groups were reported\"",
+    "source_text": "1.1: Y. Note: Title mentions RCT design. Quote: \"The block randomization with blocks of wight was conducted at the patients' individual level to split the patients at a ratio of 1:1 to an intervention or control group\".\n2.2: Y. Quote: \"The random allocation sequence generated with programming of SPSS 17.0 by the researcher was sealed in opaque envelopes. The research nurse was charged with grouping. When the recruitment number of patients reached, the nurse opened an opaque envelope to figure out the group the patients belonged to.\"\n2.3: N. Quote: \"the demographic characteristics, and the comparisons of age, gender, marital status, education level, employment status, individual income, medical insurance, years of taking medicine, medication use and diabetes complications that were comparable between the two groups were reported\"",
+    "source_occurrences": [
+      "1.1: Y. Note: Title mentions RCT design. Quote: \"The block randomization with blocks of wight was conducted at the patients' individual level to split the patients at a ratio of 1:1 to an intervention or control group\".\n2.2: Y. Quote: \"The random allocation sequence generated with programming of SPSS 17.0 by the researcher was sealed in opaque envelopes. The research nurse was charged with grouping. When the recruitment number of patients reached, the nurse opened an opaque envelope to figure out the group the patients belonged to.\"\n2.3: N. Quote: \"the demographic characteristics, and the comparisons of age, gender, marital status, education level, employment status, individual income, medical insurance, years of taking medicine, medication use and diabetes complications that were comparable between the two groups were reported\""
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.1",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1: PY;",
+    "source_occurrences": [
+      "2.1: PY;"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Due to the nature of the intervention, participants and the interventionists were most likely aware of the allocation",
+    "source_text": "2.2: PY. Note: Due to the nature of the intervention, participants and the interventionists were most likely aware of the allocation.",
+    "source_occurrences": [
+      "2.2: PY. Note: Due to the nature of the intervention, participants and the interventionists were most likely aware of the allocation."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest issues to implement intervention",
+    "source_text": "2.3: PN. Note: No evidence to suggest issues to implement intervention.",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest issues to implement intervention."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA",
+    "source_occurrences": [
+      "2.4: NA"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA",
+    "source_occurrences": [
+      "2.5: NA"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"The data analysis was conducted with SPSS 25.0 (Armonk, NY : IBM Corporation) and base on intention to treat (ITT))",
+    "source_text": "2.6: Y. Quote: \"The data analysis was conducted with SPSS 25.0 (Armonk, NY : IBM Corporation) and base on intention to treat (ITT)).",
+    "source_occurrences": [
+      "2.6: Y. Quote: \"The data analysis was conducted with SPSS 25.0 (Armonk, NY : IBM Corporation) and base on intention to treat (ITT))."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA",
+    "source_occurrences": [
+      "2.7: NA"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "3.1",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"One patient was lost during the follow-up due to falling to their death and the data in the 12th month was substituted by the last follow-up time\"",
+    "source_text": "3.1: Y. Quote: \"One patient was lost during the follow-up due to falling to their death and the data in the 12th month was substituted by the last follow-up time\".",
+    "source_occurrences": [
+      "3.1: Y. Quote: \"One patient was lost during the follow-up due to falling to their death and the data in the 12th month was substituted by the last follow-up time\"."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA",
+    "source_occurrences": [
+      "3.2: NA"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA",
+    "source_occurrences": [
+      "3.3: NA"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA",
+    "source_occurrences": [
+      "3.4: NA"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The selected outcome method (Scale of Diabeted Distress) is widely validated and established",
+    "source_text": "4.1: N. Note: The selected outcome method (Scale of Diabeted Distress) is widely validated and established.",
+    "source_occurrences": [
+      "4.1: N. Note: The selected outcome method (Scale of Diabeted Distress) is widely validated and established."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "4.3",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Outcome assessors (participants) were most likely aware of intervention allocation",
+    "source_text": "4.3: PY. Note: Outcome assessors (participants) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "4.3: PY. Note: Outcome assessors (participants) were most likely aware of intervention allocation."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did"
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "study": "Jiang 2021",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      169
+    ]
+  }
+]

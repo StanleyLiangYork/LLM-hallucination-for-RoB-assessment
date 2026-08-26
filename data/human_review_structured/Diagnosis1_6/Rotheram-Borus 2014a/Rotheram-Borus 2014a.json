@@ -1,0 +1,732 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "1a.1: PY;",
+    "source_occurrences": [
+      "1a.1: PY;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Clinics were selected and matched, randomization was conducted by a team off site",
+    "source_text": "1a.2: PY. Clinics were selected and matched, randomization was conducted by a team off site .",
+    "source_occurrences": [
+      "1a.2: PY. Clinics were selected and matched, randomization was conducted by a team off site ."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Clusters were matched",
+    "source_text": "1.3: PN. Note: Clusters were matched",
+    "source_occurrences": [
+      "1.3: PN. Note: Clusters were matched"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "particpants were recruited after randomization",
+    "source_text": "1b.1: N: particpants were recruited after randomization;",
+    "source_occurrences": [
+      "1b.1: N: particpants were recruited after randomization;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "there is no evidence to suggest that selection of individual participants was affected by knoweldge of the intervention assigned to the cluster",
+    "source_text": "1b.2: PN. Note: there is no evidence to suggest that selection of individual participants was affected by knoweldge of the intervention assigned to the cluster;",
+    "source_occurrences": [
+      "1b.2: PN. Note: there is no evidence to suggest that selection of individual participants was affected by knoweldge of the intervention assigned to the cluster;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "baseline characteristics were comparable only following clinic clustering- Quote: \"While the SC\nand the EI were similar on many variables, there were large baseline differences between conditions on employment status, housing, and maternal chronic illness. Controlling for clinic clustering, there were no significant differences between WLH in the EI and SC conditions, implying that clinic differences may be related to subcultural differences and geographic location\"",
+    "source_text": "1b.3:PN. Note: baseline characteristics were comparable only following clinic clustering- Quote: \"While the SC\nand the EI were similar on many variables, there were large baseline differences between conditions on employment status, housing, and maternal chronic illness. Controlling for clinic clustering, there were no significant differences between WLH in the EI and SC conditions, implying that clinic differences may be related to subcultural differences and geographic location\" .",
+    "source_occurrences": [
+      "1b.3:PN. Note: baseline characteristics were comparable only following clinic clustering- Quote: \"While the SC\nand the EI were similar on many variables, there were large baseline differences between conditions on employment status, housing, and maternal chronic illness. Controlling for clinic clustering, there were no significant differences between WLH in the EI and SC conditions, implying that clinic differences may be related to subcultural differences and geographic location\" ."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1a: PY;",
+    "source_occurrences": [
+      "2.1a: PY;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b: PY;",
+    "source_occurrences": [
+      "2.1b: PY;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Participants were aware that they took part of a study, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation",
+    "source_text": "2.2: PY. Note: Participants were aware that they took part of a study, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "2.2: PY. Note: Participants were aware that they took part of a study, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Participants were aware that they took part of a study, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation",
+    "source_text": "2.3:NI. Note: Participants were aware that they took part of a study, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "2.3:NI. Note: Participants were aware that they took part of a study, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Not enough information provided to give a judjment on this item",
+    "source_text": "2.6: NI. Note: Not enough information provided to give a judjment on this item",
+    "source_occurrences": [
+      "2.6: NI. Note: Not enough information provided to give a judjment on this item"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that failure to analyzed participants in randomized groups could a substantial impact on the results",
+    "source_text": "2.7: PN. Note: No evidence to suggest that failure to analyzed participants in randomized groups could a substantial impact on the results",
+    "source_occurrences": [
+      "2.7: PN. Note: No evidence to suggest that failure to analyzed participants in randomized groups could a substantial impact on the results"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information on whether data was available for all clusters",
+    "source_text": "3.1aNI. No information on whether data was available for all clusters;",
+    "source_occurrences": [
+      "3.1aNI. No information on whether data was available for all clusters;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Data were available for almost all randomized participants (93% - 307 out of 334)\"",
+    "source_text": "3.1b: PY. Data were available for almost all randomized participants (93% - 307 out of 334)\"",
+    "source_occurrences": [
+      "3.1b: PY. Data were available for almost all randomized participants (93% - 307 out of 334)\""
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence that the result was not biased by missing data",
+    "source_text": "3.2: PN. No evidence that the result was not biased by missing data",
+    "source_occurrences": [
+      "3.2: PN. No evidence that the result was not biased by missing data"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "3.3: PY;",
+    "source_occurrences": [
+      "3.3: PY;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"There were several selection effects between WLH in the EI and\nthe SC who were successfully re-assessed and those who were lost to follow up. Within the SC condition, re-assessed WLH were more likely to be married or living with their partner, employed, and have water on site and a flush toilet. Compared to EI mothers lost to follow-up, re-assessed EI mothers were older and less likely to have a chronic illness. There were no serious study-related adverse events.\"; Quote: \"In many interventions, those most in need of intervention are most likely to attend [31], but this is less possible in rural southern Africa.\"",
+    "source_text": "3.4: PY. Quote: \"There were several selection effects between WLH in the EI and\nthe SC who were successfully re-assessed and those who were lost to follow up. Within the SC condition, re-assessed WLH were more likely to be married or living with their partner, employed, and have water on site and a flush toilet. Compared to EI mothers lost to follow-up, re-assessed EI mothers were older and less likely to have a chronic illness. There were no serious study-related adverse events.\"; Quote: \"In many interventions, those most in need of intervention are most likely to attend [31], but this is less possible in rural southern Africa.\"",
+    "source_occurrences": [
+      "3.4: PY. Quote: \"There were several selection effects between WLH in the EI and\nthe SC who were successfully re-assessed and those who were lost to follow up. Within the SC condition, re-assessed WLH were more likely to be married or living with their partner, employed, and have water on site and a flush toilet. Compared to EI mothers lost to follow-up, re-assessed EI mothers were older and less likely to have a chronic illness. There were no serious study-related adverse events.\"; Quote: \"In many interventions, those most in need of intervention are most likely to attend [31], but this is less possible in rural southern Africa.\""
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The outcome measure is widely established and adapted for use in Nepal",
+    "source_text": "4.1: PN. Note: The outcome measure is widely established and adapted for use in Nepal.",
+    "source_occurrences": [
+      "4.1: PN. Note: The outcome measure is widely established and adapted for use in Nepal."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that",
+    "source_text": "4.2: PN. Note: No evidence to suggest that.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest that."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a: NI;",
+    "source_occurrences": [
+      "4.3a: NI;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "no information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. Note: no information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention",
+    "source_occurrences": [
+      "4.3b: PY. Note: no information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Edinburgh Postnatal Depression Scale (EPDS) mentioned as an outcome in protocol but was not reported",
+    "source_text": "5.2: PY. Note: Edinburgh Postnatal Depression Scale (EPDS) mentioned as an outcome in protocol but was not reported",
+    "source_occurrences": [
+      "5.2: PY. Note: Edinburgh Postnatal Depression Scale (EPDS) mentioned as an outcome in protocol but was not reported"
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported."
+    ],
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "The study is judged to be at high risk of bias in two domains (3 and 5).",
+    "source_text": "The study is judged to be at high risk of bias in two domains (3 and 5).",
+    "study": "Rotheram-Borus 2014a",
+    "topic": "Diagnosis of mental disorders at 1-6 months",
+    "topic_slug": "Diagnosis1_6",
+    "analysis_names": [
+      "Diagnosis of mental disorders at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      63
+    ]
+  }
+]
