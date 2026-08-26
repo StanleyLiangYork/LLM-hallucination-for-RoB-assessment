@@ -1,0 +1,600 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1.1: Y.",
+    "source_occurrences": [
+      "1.1: Y."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"The data manager randomized participants equally to CAU or DIL intervention via prmuted block randomization (block size of 8), using a computer-generated random-number table\"",
+    "source_text": "1.2: Y. Quote: \"The data manager randomized participants equally to CAU or DIL intervention via prmuted block randomization (block size of 8), using a computer-generated random-number table\"",
+    "source_occurrences": [
+      "1.2: Y. Quote: \"The data manager randomized participants equally to CAU or DIL intervention via prmuted block randomization (block size of 8), using a computer-generated random-number table\""
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"The DIL and CAU arms were well balanced with respect to sociodemograohic and clinical characteristics\"",
+    "source_text": "1.3: N. Quote: \"The DIL and CAU arms were well balanced with respect to sociodemograohic and clinical characteristics\"",
+    "source_occurrences": [
+      "1.3: N. Quote: \"The DIL and CAU arms were well balanced with respect to sociodemograohic and clinical characteristics\""
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.1",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "2.1: Y;",
+    "source_occurrences": [
+      "2.1: Y;"
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Quote: \"Partcipants wee asked not to discose their assignment to masked assessors\".\nQuote: \"All study personnel, including assessors, were masked to random assignment until outcomes analysis was complete and reviewed by the Data Safety Monitoring Board\"",
+    "source_text": "2.2: PN. Quote: \"Partcipants wee asked not to discose their assignment to masked assessors\".\nQuote: \"All study personnel, including assessors, were masked to random assignment until outcomes analysis was complete and reviewed by the Data Safety Monitoring Board\"",
+    "source_occurrences": [
+      "2.2: PN. Quote: \"Partcipants wee asked not to discose their assignment to masked assessors\".\nQuote: \"All study personnel, including assessors, were masked to random assignment until outcomes analysis was complete and reviewed by the Data Safety Monitoring Board\""
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "There is no reason to believe it",
+    "source_text": "2.3: N. Note: There is no reason to believe it.",
+    "source_occurrences": [
+      "2.3: N. Note: There is no reason to believe it."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"91 in the DIL intervention group and 90 in the care as usual (CAU) group were used in the final intention-to-treat analysis\"",
+    "source_text": "2.6: Y. Quote: \"91 in the DIL intervention group and 90 in the care as usual (CAU) group were used in the final intention-to-treat analysis\".",
+    "source_occurrences": [
+      "2.6: Y. Quote: \"91 in the DIL intervention group and 90 in the care as usual (CAU) group were used in the final intention-to-treat analysis\"."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "3.1",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"Attrition was low in both groups: 12.2% in the CAU group and 17.6% in the DIL intervention group\"",
+    "source_text": "3.1: Y. Quote: \"Attrition was low in both groups: 12.2% in the CAU group and 17.6% in the DIL intervention group\"",
+    "source_occurrences": [
+      "3.1: Y. Quote: \"Attrition was low in both groups: 12.2% in the CAU group and 17.6% in the DIL intervention group\""
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The selected outcome method (DDS) is widely validated and established",
+    "source_text": "4.1: N. Note: The selected outcome method (DDS) is widely validated and established.",
+    "source_occurrences": [
+      "4.1: N. Note: The selected outcome method (DDS) is widely validated and established."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "4.3",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Outcome assessors (participants) were most likely aware of intervention allocation",
+    "source_text": "4.3: PN. Note: Outcome assessors (participants) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "4.3: PN. Note: Outcome assessors (participants) were most likely aware of intervention allocation."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Protocol available. No evidence to suggest otherwise, the protocol and manuscript do not show discrepancies",
+    "source_text": "5.1: N. Note: Protocol available. No evidence to suggest otherwise, the protocol and manuscript do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: N. Note: Protocol available. No evidence to suggest otherwise, the protocol and manuscript do not show discrepancies."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "no evidence to suggest outcome selection. All outcomes mentioned in the methods and protocol were reported",
+    "source_text": "5.2: N. Note: no evidence to suggest outcome selection. All outcomes mentioned in the methods and protocol were reported.",
+    "source_occurrences": [
+      "5.2: N. Note: no evidence to suggest outcome selection. All outcomes mentioned in the methods and protocol were reported."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "No evidence to suggest analyses selection. All outcomes in the methods and protocol were reported",
+    "source_text": "5.3: N. Note: No evidence to suggest analyses selection. All outcomes in the methods and protocol were reported.",
+    "source_occurrences": [
+      "5.3: N. Note: No evidence to suggest analyses selection. All outcomes in the methods and protocol were reported."
+    ],
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in two domains (4 and 5), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in two domains (4 and 5), but not to be at high risk of bias for any domain.",
+    "study": "Dias 2019",
+    "topic": "Distress/PTSD symptoms at 7-24 months",
+    "topic_slug": "PTSD7_24",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 7-24 months"
+    ],
+    "csv_row_numbers": [
+      167
+    ]
+  }
+]

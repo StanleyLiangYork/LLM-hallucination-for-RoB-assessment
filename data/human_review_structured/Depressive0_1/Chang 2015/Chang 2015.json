@@ -1,0 +1,759 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1.1: Y;",
+    "source_occurrences": [
+      "1.1: Y;"
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Title mentions RCT design. Quote: \"The evaluation was a cluster randomized trial conducted in Jamaica, Antigua, and St Lucia with public health center as the unit of randomization.\"",
+    "source_text": "1.2: PY. Note: Title mentions RCT design. Quote: \"The evaluation was a cluster randomized trial conducted in Jamaica, Antigua, and St Lucia with public health center as the unit of randomization.\"",
+    "source_occurrences": [
+      "1.2: PY. Note: Title mentions RCT design. Quote: \"The evaluation was a cluster randomized trial conducted in Jamaica, Antigua, and St Lucia with public health center as the unit of randomization.\""
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"There were no significant differences between groups in enrollment characteristics\"",
+    "source_text": "1.3: N. Note: Quote: \"There were no significant differences between groups in enrollment characteristics\"",
+    "source_occurrences": [
+      "1.3: N. Note: Quote: \"There were no significant differences between groups in enrollment characteristics\""
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "2.1a: NI;",
+    "source_occurrences": [
+      "2.1a: NI;"
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b: PY;",
+    "source_occurrences": [
+      "2.1b: PY;"
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on wheter participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation",
+    "source_text": "2.2: PY. Note: No information provided on wheter participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "2.2: PY. Note: No information provided on wheter participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"Clinics were often noisy and crowded, and some mothers would have had\ndifficulty hearing and seeing the films. It also made it difficult for the health workers to interact\nwith the mothers during the\ndemonstration.\"",
+    "source_text": "2.3: PY. Note: Quote: \"Clinics were often noisy and crowded, and some mothers would have had\ndifficulty hearing and seeing the films. It also made it difficult for the health workers to interact\nwith the mothers during the\ndemonstration.\"",
+    "source_occurrences": [
+      "2.3: PY. Note: Quote: \"Clinics were often noisy and crowded, and some mothers would have had\ndifficulty hearing and seeing the films. It also made it difficult for the health workers to interact\nwith the mothers during the\ndemonstration.\""
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"Analyses were by intention to treat\"",
+    "source_text": "2.6: Y. Quote: \"Analyses were by intention to treat\"",
+    "source_occurrences": [
+      "2.6: Y. Quote: \"Analyses were by intention to treat\""
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information on wheter data was available for all clusters",
+    "source_text": "3.1a: NI. No information on wheter data was available for all clusters.",
+    "source_occurrences": [
+      "3.1a: NI. No information on wheter data was available for all clusters."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "3.1b: PY.",
+    "source_occurrences": [
+      "3.1b: PY."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"Loss did not differ by group (16% of children were lost to follow-up in the control and 14% were lost to follow-up in the intevrention)\"",
+    "source_text": "3.2: PY. Quote: \"Loss did not differ by group (16% of children were lost to follow-up in the control and 14% were lost to follow-up in the intevrention)\"",
+    "source_occurrences": [
+      "3.2: PY. Quote: \"Loss did not differ by group (16% of children were lost to follow-up in the control and 14% were lost to follow-up in the intevrention)\""
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The selected outcome measure (center for Epidemiologic Studies-depression Scale) is widely validated and established",
+    "source_text": "4.1: N. Note: The selected outcome measure (center for Epidemiologic Studies-depression Scale) is widely validated and established.",
+    "source_occurrences": [
+      "4.1: N. Note: The selected outcome measure (center for Epidemiologic Studies-depression Scale) is widely validated and established."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurements between intevrention and control",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurements between intevrention and control.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurements between intevrention and control."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.3a: PY;",
+    "source_occurrences": [
+      "4.3a: PY;"
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Interviewers and testers were blind to center assignment but participants (mothers) probably knew that they were in a trial and participants were most likely aware of the group allocation due to the nature of the intervention. Self-assessment scale",
+    "source_text": "4.3b: PY. Note: Interviewers and testers were blind to center assignment but participants (mothers) probably knew that they were in a trial and participants were most likely aware of the group allocation due to the nature of the intervention. Self-assessment scale.",
+    "source_occurrences": [
+      "4.3b: PY. Note: Interviewers and testers were blind to center assignment but participants (mothers) probably knew that they were in a trial and participants were most likely aware of the group allocation due to the nature of the intervention. Self-assessment scale."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcome, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcome, but there is no reason to believe that it did",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcome, but there is no reason to believe that it did"
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "no evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: no evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: no evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection. All outcomes mentioned in the methods are reported",
+    "source_text": "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods are reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods are reported."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods were reported."
+    ],
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "The study is judged to be at high risk of bias in one domain (2).",
+    "source_text": "The study is judged to be at high risk of bias in one domain (2).",
+    "study": "Chang 2015",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      94,
+      269,
+      320
+    ]
+  }
+]

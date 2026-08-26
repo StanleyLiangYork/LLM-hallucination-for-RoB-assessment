@@ -1,0 +1,666 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1a.1:Y;",
+    "source_occurrences": [
+      "1a.1:Y;"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Quote: \"We used a two-step randomization procedure. First, within district divisions, we randomly allocated each division to either the intervention or waitlist control condition. Second, we randomly selected schools for inclusion in the study. All schools on the government-provided list were eligible\"",
+    "source_text": "1a.2: NI. Quote: \"We used a two-step randomization procedure. First, within district divisions, we randomly allocated each division to either the intervention or waitlist control condition. Second, we randomly selected schools for inclusion in the study. All schools on the government-provided list were eligible\".",
+    "source_occurrences": [
+      "1a.2: NI. Quote: \"We used a two-step randomization procedure. First, within district divisions, we randomly allocated each division to either the intervention or waitlist control condition. Second, we randomly selected schools for inclusion in the study. All schools on the government-provided list were eligible\"."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No useful information is reported to evaluate this element",
+    "source_text": "1a.3: NI. Note:No useful information is reported to evaluate this element",
+    "source_occurrences": [
+      "1a.3: NI. Note:No useful information is reported to evaluate this element"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "flow-chart indicatesi individual participants were identified before randomization of clusters.1b.3 Tests to compare study condi- tions at baseline on demographic characteristics and scores on the outcomes measures were conducted and no statistically significant differences between study conditions were found",
+    "source_text": "1b.1: PY. Note: flow-chart indicatesi individual participants were identified before randomization of clusters.1b.3 Tests to compare study condi- tions at baseline on demographic characteristics and scores on the outcomes measures were conducted and no statistically significant differences between study conditions were found.",
+    "source_occurrences": [
+      "1b.1: PY. Note: flow-chart indicatesi individual participants were identified before randomization of clusters.1b.3 Tests to compare study condi- tions at baseline on demographic characteristics and scores on the outcomes measures were conducted and no statistically significant differences between study conditions were found."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b:PY;",
+    "source_occurrences": [
+      "2.1b:PY;"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation",
+    "source_text": "2.2: PY. No information provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation.",
+    "source_occurrences": [
+      "2.2: PY. No information provided on whether participants knew that they were in a trial, due to the nature of the intervention they (as those delivering the intervention) were most likely aware of intervention allocation."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention that arose because of the trial context",
+    "source_text": "2.3: PN. No evidence to suggest deviations from the intended intervention that arose because of the trial context",
+    "source_occurrences": [
+      "2.3: PN. No evidence to suggest deviations from the intended intervention that arose because of the trial context"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Most randomized participants were analyzed",
+    "source_text": "2.6: PY. Most randomized participants were analyzed.",
+    "source_occurrences": [
+      "2.6: PY. Most randomized participants were analyzed."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "no evidence to suggest cluster loss",
+    "source_text": "3.1a: PY. Note: no evidence to suggest cluster loss;",
+    "source_occurrences": [
+      "3.1a: PY. Note: no evidence to suggest cluster loss;"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "it appears that data were available for almost all randomized participants;\nQuote: \"Because only two participants had missing data on out- come measures at the third assessment (lost to follow-up at 18 weeks), we conducted a complete case analysis, excluding the two participants with missing data.\"",
+    "source_text": "3.1b: PY. Note: it appears that data were available for almost all randomized participants;\nQuote: \"Because only two participants had missing data on out- come measures at the third assessment (lost to follow-up at 18 weeks), we conducted a complete case analysis, excluding the two participants with missing data.\"",
+    "source_occurrences": [
+      "3.1b: PY. Note: it appears that data were available for almost all randomized participants;\nQuote: \"Because only two participants had missing data on out- come measures at the third assessment (lost to follow-up at 18 weeks), we conducted a complete case analysis, excluding the two participants with missing data.\""
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2:NA.",
+    "source_occurrences": [
+      "3.2:NA."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3:NA.",
+    "source_occurrences": [
+      "3.3:NA."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4:NA.",
+    "source_occurrences": [
+      "3.4:NA."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The outcome measure (DSRS) presented good psychometric properties in the study sample",
+    "source_text": "4.1: PN. The outcome measure (DSRS) presented good psychometric properties in the study sample.",
+    "source_occurrences": [
+      "4.1: PN. The outcome measure (DSRS) presented good psychometric properties in the study sample."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups",
+    "source_text": "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups.",
+    "source_occurrences": [
+      "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a: NI;",
+    "source_occurrences": [
+      "4.3a: NI;"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention.",
+    "source_occurrences": [
+      "4.3b: PY. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were most likely aware of the group allocation due to the nature of the intervention."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "While some changes had been made to the protocol, these were explicitely reported and accounted for in the manuscript. Quote: \"Minor pragmatic changes to the trial protocol were made. We had originally intended to link data on educational outcomes for students from school records to our survey data, to explore the effects of the intervention on school achievement as a secondary outcome; however, it became clear that record linkage would be too time-consuming, and we instead analysed school attendance as a secondary outcome.\"",
+    "source_text": "5.2: PN. While some changes had been made to the protocol, these were explicitely reported and accounted for in the manuscript. Quote: \"Minor pragmatic changes to the trial protocol were made. We had originally intended to link data on educational outcomes for students from school records to our survey data, to explore the effects of the intervention on school achievement as a secondary outcome; however, it became clear that record linkage would be too time-consuming, and we instead analysed school attendance as a secondary outcome.\"",
+    "source_occurrences": [
+      "5.2: PN. While some changes had been made to the protocol, these were explicitely reported and accounted for in the manuscript. Quote: \"Minor pragmatic changes to the trial protocol were made. We had originally intended to link data on educational outcomes for students from school records to our survey data, to explore the effects of the intervention on school achievement as a secondary outcome; however, it became clear that record linkage would be too time-consuming, and we instead analysed school attendance as a secondary outcome.\""
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported."
+    ],
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "study": "Tol 2012",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      225
+    ]
+  }
+]

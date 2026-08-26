@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rob-retrieve-then-verify"
+version = "0.1.0"
+description = "RoB 2 assessment and evidence-grounding evaluation for LLM-generated medical information"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.54.0",
+  "pdfplumber>=0.11.0",
+  "rank-bm25>=0.2.2",
+  "tiktoken>=0.7.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["rob_pipeline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,600 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1.1: Y;",
+    "source_occurrences": [
+      "1.1: Y;"
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"Participants were randomly assigned to either the intervention\ngroup (n = 87) or the wait-list control group\n(n = 86), using the online program research randomizer\n(https://www.randomizer.org).\"; \"At the end of the session they received a sealed opaque\nenvelope containing their given group number, which\ncorresponded to one of the conditions. This procedure\nwas performed by a different independent party to maximize\nallocation concealment.\"",
+    "source_text": "1.2: PY. Note: Quote: \"Participants were randomly assigned to either the intervention\ngroup (n = 87) or the wait-list control group\n(n = 86), using the online program research randomizer\n(https://www.randomizer.org).\"; \"At the end of the session they received a sealed opaque\nenvelope containing their given group number, which\ncorresponded to one of the conditions. This procedure\nwas performed by a different independent party to maximize\nallocation concealment.\"",
+    "source_occurrences": [
+      "1.2: PY. Note: Quote: \"Participants were randomly assigned to either the intervention\ngroup (n = 87) or the wait-list control group\n(n = 86), using the online program research randomizer\n(https://www.randomizer.org).\"; \"At the end of the session they received a sealed opaque\nenvelope containing their given group number, which\ncorresponded to one of the conditions. This procedure\nwas performed by a different independent party to maximize\nallocation concealment.\""
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Quote: \"No\nsignificant differences of socio-demographics between\ngroups were found, except for gender and ethnicity,\nwith an overrepresentation of male participants from\nJavanese descent in the intervention group.\"",
+    "source_text": "1.3: PN. Quote: \"No\nsignificant differences of socio-demographics between\ngroups were found, except for gender and ethnicity,\nwith an overrepresentation of male participants from\nJavanese descent in the intervention group.\"",
+    "source_occurrences": [
+      "1.3: PN. Quote: \"No\nsignificant differences of socio-demographics between\ngroups were found, except for gender and ethnicity,\nwith an overrepresentation of male participants from\nJavanese descent in the intervention group.\""
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.1",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1: PY;",
+    "source_occurrences": [
+      "2.1: PY;"
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Due to the nature of the intervention participants and personnel were most likely aware of allocation",
+    "source_text": "2.2: PY. Note: Due to the nature of the intervention participants and personnel were most likely aware of allocation.",
+    "source_occurrences": [
+      "2.2: PY. Note: Due to the nature of the intervention participants and personnel were most likely aware of allocation."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest issues to implement intervention",
+    "source_text": "2.3: PN. Note: No evidence to suggest issues to implement intervention.",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest issues to implement intervention."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"Of the 173 randomized participants, 15 did not attend the\nbaseline assessment due to work-related scheduling conflicts.\nThese absences were unrelated to the randomization\nitself and were the result of workflow processes, not\nindividual volition. Due to these initial drop-outs,\na modified intention-to-treat (mITT) analysis was used\"",
+    "source_text": "2.6: Y. Quote: \"Of the 173 randomized participants, 15 did not attend the\nbaseline assessment due to work-related scheduling conflicts.\nThese absences were unrelated to the randomization\nitself and were the result of workflow processes, not\nindividual volition. Due to these initial drop-outs,\na modified intention-to-treat (mITT) analysis was used\"",
+    "source_occurrences": [
+      "2.6: Y. Quote: \"Of the 173 randomized participants, 15 did not attend the\nbaseline assessment due to work-related scheduling conflicts.\nThese absences were unrelated to the randomization\nitself and were the result of workflow processes, not\nindividual volition. Due to these initial drop-outs,\na modified intention-to-treat (mITT) analysis was used\""
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "3.1",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"In total, 158 participants completed the baseline assessment\nand started the intervention, 144 (91%) participants\ncompleted the post-test at seven weeks, and 120\n(76%) the three month follow-up assessment.\"",
+    "source_text": "3.1: PY. Quote: \"In total, 158 participants completed the baseline assessment\nand started the intervention, 144 (91%) participants\ncompleted the post-test at seven weeks, and 120\n(76%) the three month follow-up assessment.\"",
+    "source_occurrences": [
+      "3.1: PY. Quote: \"In total, 158 participants completed the baseline assessment\nand started the intervention, 144 (91%) participants\ncompleted the post-test at seven weeks, and 120\n(76%) the three month follow-up assessment.\""
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Quote: \"Cronbach’s alpha in the present study was\n.89 at pretest, .92 at post-test, and .94 at follow-up.\"",
+    "source_text": "4.1: PN. Quote: \"Cronbach’s alpha in the present study was\n.89 at pretest, .92 at post-test, and .94 at follow-up.\"",
+    "source_occurrences": [
+      "4.1: PN. Quote: \"Cronbach’s alpha in the present study was\n.89 at pretest, .92 at post-test, and .94 at follow-up.\""
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "no evidence to suggest differences in measurement between intervention and control",
+    "source_text": "4.2: PN. Note: no evidence to suggest differences in measurement between intervention and control.",
+    "source_occurrences": [
+      "4.2: PN. Note: no evidence to suggest differences in measurement between intervention and control."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "4.3",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Outcome assessors (participants) were most likely aware of intervention allocation. The investigators in the trial were blinded",
+    "source_text": "4.3: PY. Note: Outcome assessors (participants) were most likely aware of intervention allocation. The investigators in the trial were blinded.",
+    "source_occurrences": [
+      "4.3: PY. Note: Outcome assessors (participants) were most likely aware of intervention allocation. The investigators in the trial were blinded."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PN. Note: No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PN. Note: No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "no evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.2: PN. Note: no evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: no evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported."
+    ],
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in one domain (4), but not to be at high risk of bias for any domain.",
+    "study": "Hendriks 2019",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      5
+    ]
+  }
+]

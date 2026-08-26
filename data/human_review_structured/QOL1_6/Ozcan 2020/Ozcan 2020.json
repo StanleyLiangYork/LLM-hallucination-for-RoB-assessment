@@ -1,0 +1,582 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "1.1: PY.",
+    "source_occurrences": [
+      "1.1: PY."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"a 2-group randomized controlled trial with a prospective pretest-posttest experimental design was conducted to evaluate the model’s effectiveness. (...) A sealed envelope method was used in randomization; half of the women were randomly assigned to the intervention group (n1⁄458) and the other half to the control group (n1⁄459). \" Baseline characteristics were overall comparable across groups",
+    "source_text": "1.2: PY. Quote: \"a 2-group randomized controlled trial with a prospective pretest-posttest experimental design was conducted to evaluate the model’s effectiveness. (...) A sealed envelope method was used in randomization; half of the women were randomly assigned to the intervention group (n1⁄458) and the other half to the control group (n1⁄459). \"\n1.2: PN: Note: Baseline characteristics were overall comparable across groups.",
+    "source_occurrences": [
+      "1.2: PY. Quote: \"a 2-group randomized controlled trial with a prospective pretest-posttest experimental design was conducted to evaluate the model’s effectiveness. (...) A sealed envelope method was used in randomization; half of the women were randomly assigned to the intervention group (n1⁄458) and the other half to the control group (n1⁄459). \"",
+      "1.2: PN: Note: Baseline characteristics were overall comparable across groups."
+    ],
+    "conflicting_responses": [
+      "Probably No"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.1",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1: PY;",
+    "source_occurrences": [
+      "2.1: PY;"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Due to the nature of the intervention, participants and personnel were aware of their assigned intervention",
+    "source_text": "2.2: PY. Note: Due to the nature of the intervention, participants and personnel were aware of their assigned intervention.",
+    "source_occurrences": [
+      "2.2: PY. Note: Due to the nature of the intervention, participants and personnel were aware of their assigned intervention."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest issues in recruitment and engagement, nor failures to implement intervention allowed by the protocol",
+    "source_text": "2.3: PN. No evidence to suggest issues in recruitment and engagement, nor failures to implement intervention allowed by the protocol.",
+    "source_occurrences": [
+      "2.3: PN. No evidence to suggest issues in recruitment and engagement, nor failures to implement intervention allowed by the protocol."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA",
+    "source_occurrences": [
+      "2.4: NA"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA",
+    "source_occurrences": [
+      "2.5: NA"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Quote: \"The exclusion criteria were as follows: (i) being lost to follow-up (…)\"",
+    "source_text": "2.6: PN. Quote: \"The exclusion criteria were as follows: (i) being lost to follow-up (…)\"",
+    "source_occurrences": [
+      "2.6: PN. Quote: \"The exclusion criteria were as follows: (i) being lost to follow-up (…)\""
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "7/110 (6% circa) of participants were excluded from the analysis because they were lost at follow-up",
+    "source_text": "2.7: PY. Note: 7/110 (6% circa) of participants were excluded from the analysis because they were lost at follow-up.",
+    "source_occurrences": [
+      "2.7: PY. Note: 7/110 (6% circa) of participants were excluded from the analysis because they were lost at follow-up."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "3.1",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Data were available for almost all randomized participants (6% were lost at follow up and excluded from analyses)",
+    "source_text": "3.1: Y. Note: Data were available for almost all randomized participants (6% were lost at follow up and excluded from analyses).",
+    "source_occurrences": [
+      "3.1: Y. Note: Data were available for almost all randomized participants (6% were lost at follow up and excluded from analyses)."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA",
+    "source_occurrences": [
+      "3.2: NA"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA",
+    "source_occurrences": [
+      "3.3: NA"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA",
+    "source_occurrences": [
+      "3.4: NA"
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The selected outcome method is widely validated and established and demonstrated good psychometric properties in the study",
+    "source_text": "4.1: PN. Note: The selected outcome method is widely validated and established and demonstrated good psychometric properties in the study.",
+    "source_occurrences": [
+      "4.1: PN. Note: The selected outcome method is widely validated and established and demonstrated good psychometric properties in the study."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "4.3",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Outcome assessors (participants) were most likely aware of intervention allocation. Staff involved in data collection were not blinded to the allocation",
+    "source_text": "4.3: PY. Note: Outcome assessors (participants) were most likely aware of intervention allocation. Staff involved in data collection were not blinded to the allocation.",
+    "source_occurrences": [
+      "4.3: PY. Note: Outcome assessors (participants) were most likely aware of intervention allocation. Staff involved in data collection were not blinded to the allocation."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY.",
+    "source_occurrences": [
+      "4.4: PY."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection",
+    "source_text": "5.2: PN. Note: No evidence to suggest outcome selection.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evidence to suggest outcome selection."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods were reported."
+    ],
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "The study is judged to be at high risk of bias in one domain (2).",
+    "source_text": "The study is judged to be at high risk of bias in one domain (2).",
+    "study": "Ozcan 2020",
+    "topic": "Quality of life at 1-6 months",
+    "topic_slug": "QOL1_6",
+    "analysis_names": [
+      "Quality of life at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      27
+    ]
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "1a.1: PY.",
+    "source_occurrences": [
+      "1a.1: PY."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"A randomization procedure was used, in which names of the two VDCs were written on cards and placed into a hat. The District Public Health Officer (DPHO) was to draw one card from the hat which would be allocated as the intervention arm VDC and the VDC in the remaining card would be allocated to the control arm. Program staff, including community psychosocial workers (CPSWs) and research assistants (RAs) were only assigned to either VDC after the random drawing to reduce risk of unblinding",
+    "source_text": "1a.2: PY. Quote: \"A randomization procedure was used, in which names of the two VDCs were written on cards and placed into a hat. The District Public Health Officer (DPHO) was to draw one card from the hat which would be allocated as the intervention arm VDC and the VDC in the remaining card would be allocated to the control arm. Program staff, including community psychosocial workers (CPSWs) and research assistants (RAs) were only assigned to either VDC after the random drawing to reduce risk of unblinding.",
+    "source_occurrences": [
+      "1a.2: PY. Quote: \"A randomization procedure was used, in which names of the two VDCs were written on cards and placed into a hat. The District Public Health Officer (DPHO) was to draw one card from the hat which would be allocated as the intervention arm VDC and the VDC in the remaining card would be allocated to the control arm. Program staff, including community psychosocial workers (CPSWs) and research assistants (RAs) were only assigned to either VDC after the random drawing to reduce risk of unblinding."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "There is no evidencde to suggest problems in the randomization process",
+    "source_text": "1a.3: PN. There is no evidencde to suggest problems in the randomization process",
+    "source_occurrences": [
+      "1a.3: PN. There is no evidencde to suggest problems in the randomization process"
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "it appears the randomization was conducted prior to the recruitment of participants",
+    "source_text": "1b.1: PN. it appears the randomization was conducted prior to the recruitment of participants.",
+    "source_occurrences": [
+      "1b.1: PN. it appears the randomization was conducted prior to the recruitment of participants."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "It is unlikely that the selection of inidividual participants was affected by knowledge of the intervention assigned to the cluster",
+    "source_text": "1b.2: PN. It is unlikely that the selection of inidividual participants was affected by knowledge of the intervention assigned to the cluster.",
+    "source_occurrences": [
+      "1b.2: PN. It is unlikely that the selection of inidividual participants was affected by knowledge of the intervention assigned to the cluster."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "there is no evidence to indicate imbalances in baseline values to indicate differentail identification or recruitment of individual participants",
+    "source_text": "1b.3: PN. there is no evidence to indicate imbalances in baseline values to indicate differentail identification or recruitment of individual participants.",
+    "source_occurrences": [
+      "1b.3: PN. there is no evidence to indicate imbalances in baseline values to indicate differentail identification or recruitment of individual participants."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "2.1b: PN.",
+    "source_occurrences": [
+      "2.1b: PN."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Quote: \"CPSWs, RAs, trial participants, and local mhGAP trained health workers were blinded to the allocation of the study conditions. The VDCs of the two arms were separated by another VDC which worked as a buffer and physical barrier against contamination between the two arms. CPSWs in both arms were instructed not to disclose the treatment that any participants received except with their clinical supervisors. The trial statistician was blinded to treatment arm during analysis. \"",
+    "source_text": "2.2: PN. Quote: \"CPSWs, RAs, trial participants, and local mhGAP trained health workers were blinded to the allocation of the study conditions. The VDCs of the two arms were separated by another VDC which worked as a buffer and physical barrier against contamination between the two arms. CPSWs in both arms were instructed not to disclose the treatment that any participants received except with their clinical supervisors. The trial statistician was blinded to treatment arm during analysis. \"",
+    "source_occurrences": [
+      "2.2: PN. Quote: \"CPSWs, RAs, trial participants, and local mhGAP trained health workers were blinded to the allocation of the study conditions. The VDCs of the two arms were separated by another VDC which worked as a buffer and physical barrier against contamination between the two arms. CPSWs in both arms were instructed not to disclose the treatment that any participants received except with their clinical supervisors. The trial statistician was blinded to treatment arm during analysis. \""
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.3: NA.",
+    "source_occurrences": [
+      "2.3: NA."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Data was analysed for most participants randomized",
+    "source_text": "2.6: PY. Data was analysed for most participants randomized.",
+    "source_occurrences": [
+      "2.6: PY. Data was analysed for most participants randomized."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "all included clusters were analyzed",
+    "source_text": "3.1a: Y. all included clusters were analyzed;",
+    "source_occurrences": [
+      "3.1a: Y. all included clusters were analyzed;"
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "data were available for nearly all participants within the cluster",
+    "source_text": "3.1b: PY. data were available for nearly all participants within the cluster",
+    "source_occurrences": [
+      "3.1b: PY. data were available for nearly all participants within the cluster"
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The outcome measure (PHQ-9) is widely established and used across contexts, included the one of the trial",
+    "source_text": "4.1: PN. The outcome measure (PHQ-9) is widely established and used across contexts, included the one of the trial",
+    "source_occurrences": [
+      "4.1: PN. The outcome measure (PHQ-9) is widely established and used across contexts, included the one of the trial"
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups",
+    "source_text": "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups.",
+    "source_occurrences": [
+      "4.2: PN. No evidence to suggest that measurement or ascertainment of the outcome differed between intervention groups."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a:NI.",
+    "source_occurrences": [
+      "4.3a:NI."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were blinded",
+    "source_text": "4.3b: PN. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were blinded",
+    "source_occurrences": [
+      "4.3b: PN. No information provided on whether participants knew that they were in a trial, participants (outcome assessors) were blinded"
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, protocol and paper do not show discrepancies",
+    "source_text": "5.1: PY. No evidence to suggest otherwise, protocol and paper do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. No evidence to suggest otherwise, protocol and paper do not show discrepancies."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection. All outcomes mentioned in the protocol, methods and results were reported",
+    "source_text": "5.2: PN. No evidence to suggest outcome selection. All outcomes mentioned in the protocol, methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. No evidence to suggest outcome selection. All outcomes mentioned in the protocol, methods and results were reported."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the protocol, methods and results were reported",
+    "source_text": "5.3: PN. No evidence to suggest analyses selection. All analyses mentioned in the protocol, methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. No evidence to suggest analyses selection. All analyses mentioned in the protocol, methods and results were reported."
+    ],
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "The study is judged to be at low risk of bias for all domains.",
+    "source_text": "The study is judged to be at low risk of bias for all domains.",
+    "study": "Sangraula 2020",
+    "topic": "Depressive symptoms at 0-1 months",
+    "topic_slug": "Depressive0_1",
+    "analysis_names": [
+      "Depressive symptoms at 0-1 months",
+      "Depressive symptoms at 0-1 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      104,
+      258,
+      276,
+      314
+    ]
+  }
+]

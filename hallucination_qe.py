@@ -1,468 +1,330 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""Retrieve evidence with BM25 and judge support for each RoB 2 claim."""
 
-"""
-Optimized hallucination QA+Evidence:
-- For each study (subfolder of --json), read its machine-response JSON once.
-- Read the corresponding PDF once from --pdf_root/<study_name>/*.pdf
-- Build a single BM25 index over the PDF text (chunked with overlap).
-- Loop over all items in the JSON, query BM25, and ask GPT-5 for a verdict.
+from __future__ import annotations
 
-NEW:
-- Before processing a study, check --out_json for an existing output JSON with results.
-  If found (and non-empty), print and skip this study.
-
-Output: one JSON file per study saved in --out_json, same base filename as input.
-"""
-
-import os
-import re
-import json
-import glob
 import argparse
-import time
-from typing import List, Dict, Any, Tuple
+import json
+import statistics
+import sys
+from pathlib import Path
+from typing import Any
 
-import pdfplumber
-from openai import OpenAI, BadRequestError
+from rob_pipeline.io_utils import (
+    atomic_write_json,
+    find_pdf_for_study,
+    find_response_jsons,
+    load_api_key,
+    load_json_items,
+)
+from rob_pipeline.openai_json import OpenAIJsonClient
+from rob_pipeline.retrieval import BM25Retriever, chunk_pdf, normalize_whitespace
+from rob_pipeline.schema import QUESTION_BY_ID, VERDICT_JSON_SCHEMA
 
-# ---------- BM25 ----------
-try:
-    from rank_bm25 import BM25Okapi
-    _HAS_BM25 = True
-except Exception as _e:
-    _HAS_BM25 = False
-    raise ImportError(
-        "rank_bm25 is required. Install with: pip install rank-bm25"
+
+SYSTEM_PROMPT = """You verify evidence grounding in medical literature.
+Judge the machine-generated RoB 2 claim only against the supplied verbatim excerpts from the source trial report. Use these labels exactly:
+- Supported: the excerpts directly support the response and its material explanation.
+- Contradicted: the excerpts directly conflict with the response or a material explanatory claim.
+- Not Found: the claim is relevant to the question, but the excerpts do not establish either support or contradiction.
+- Out of Scope: the claim cannot be evaluated for this question, including a genuinely inapplicable conditional item.
+Do not use the human gold label, outside knowledge, or unstated assumptions. For Supported or Contradicted, quote the shortest exact passage that justifies the verdict. For Not Found or Out of Scope, return an empty quote. Return JSON only."""
+
+
+def _question_text(item: dict[str, Any]) -> str:
+    supplied = str(item.get("question_text") or "").strip()
+    if supplied:
+        return supplied
+    qid = str(item.get("question_id") or "").casefold()
+    question = QUESTION_BY_ID.get(qid)
+    return question.text if question else ""
+
+
+def _explanation(item: dict[str, Any]) -> str:
+    values = [item.get("comment"), item.get("reasoning"), item.get("explanation")]
+    return " ".join(str(value).strip() for value in values if str(value or "").strip())
+
+
+def _gold_response(item: dict[str, Any], human_lookup: dict[str, str]) -> str:
+    gold = item.get("gold")
+    if isinstance(gold, dict):
+        response = str(gold.get("response") or "")
+        if response:
+            return response
+    response = str(item.get("human_response") or "")
+    if response:
+        return response
+    return human_lookup.get(str(item.get("question_id") or "").casefold(), "")
+
+
+def _load_human_lookup(
+    human_root: str | Path | None, topic_slug: str, study: str
+) -> tuple[dict[str, str], str]:
+    if not human_root:
+        return {}, ""
+    root = Path(human_root)
+    expected = root / topic_slug / study / f"{study}.json"
+    candidates = [expected] if expected.is_file() else []
+    if not candidates:
+        candidates = [
+            path for path in root.rglob("*.json")
+            if path.stem.casefold() == study.casefold() and topic_slug in path.parts
+        ]
+    if not candidates:
+        return {}, ""
+    if len(candidates) > 1:
+        raise ValueError(
+            f"Multiple human-reference files found for {study}/{topic_slug}: "
+            + ", ".join(str(path) for path in candidates)
+        )
+
+    items = load_json_items(candidates[0])
+    exact: dict[str, str] = {}
+    canonical: dict[str, set[str]] = {}
+    for item in items:
+        response = str(item.get("response") or "").strip()
+        if not response:
+            continue
+        question_id = str(item.get("question_id") or "").casefold()
+        if question_id:
+            exact[question_id] = response
+        canonical_id = str(item.get("canonical_question_id") or "").casefold()
+        if canonical_id:
+            canonical.setdefault(canonical_id, set()).add(response)
+    for question_id, responses in canonical.items():
+        if question_id not in exact and len(responses) == 1:
+            exact[question_id] = next(iter(responses))
+    return exact, str(candidates[0])
+
+
+def _build_query(item: dict[str, Any]) -> str:
+    return " ".join(
+        value for value in (
+            _question_text(item),
+            str(item.get("response") or item.get("machine_response") or "").strip(),
+            _explanation(item),
+        ) if value
     )
 
-# ---------------------------
-# Model temperature handling
-# ---------------------------
-MODELS_WITH_TEMPERATURE = {
-    "gpt-3.5-turbo",
-    "gpt-4o",
-    "gpt-4o-mini",
-    # add other non-reasoning chat models here if needed
-}
-def _supports_temperature(model: str) -> bool:
-    base = (model or "").lower().strip()
-    return base in MODELS_WITH_TEMPERATURE
 
-# ---------------------------
-# Question-id → question text mapping (normalized keys)
-# ---------------------------
-def norm_qid(s: str) -> str:
-    return (s or "").strip().lower().replace(" ", "_")
+def _judge_prompt(study: str, item: dict[str, Any], retrieved: list[dict[str, Any]]) -> str:
+    evidence = "\n\n".join(
+        f"[Excerpt {hit['rank']}; BM25={hit['score']:.6f}; pages {hit['page_start']}-{hit['page_end']}]\n{hit['snippet']}"
+        for hit in retrieved
+    )
+    return f"""Study: {study}
+Question ID: {item.get('question_id', '')}
+Question: {_question_text(item)}
+Machine response: {item.get('response', item.get('machine_response', ''))}
+Machine explanation: {_explanation(item)}
 
-QID_TO_QUESTION: Dict[str, str] = {
-    # Domain 1
-    "1.1": "Was the allocation sequence random?",
-    "1.2": "Was the allocation sequence concealed until participants were enrolled and assigned to interventions?",
-    "1.3": "Did baseline differences between intervention groups suggest a problem with the randomization process?",
-    "domain_1_conclusion": "Risk-of-bias judgement, based on 1.1–1.3, for bias arising from the randomization process",
+Retrieved source excerpts:
+{evidence}
 
-    # Domain 2
-    "2.1": "Were participants aware of their assigned intervention during the trial?",
-    "2.2": "Were carers and people delivering the interventions aware of participants' assigned intervention during the trial?",
-    "2.3": "If 2.1 or 2.2 is Yes/Probably Yes/No information: Were there deviations from the intended intervention that arose because of the trial context?",
-    "2.4": "If 2.3 is Yes/Probably Yes: Were these deviations likely to have affected the outcome?",
-    "2.5": "If 2.4 is Yes/Probably Yes/No information: Were these deviations from intended intervention balanced between groups?",
-    "2.6": "Was an appropriate analysis used to estimate the effect of assignment to intervention?",
-    "2.7": "If 2.6 is No/Probably No/No information: Was there potential for a substantial impact of failure to analyse participants in their randomized groups?",
-    "domain_2_conclusion": "Risk-of-bias judgement, based on 2.1–2.7, for deviations from intended interventions (effect of assignment)",
-
-    # Domain 3
-    "3.1": "Were data for this outcome available for all, or nearly all, participants randomized?",
-    "3.2": "If 3.1 is No/Probably No/No information: Is there evidence that the result was not biased by missing outcome data?",
-    "3.3": "If 3.2 is No/Probably No: Could missingness in the outcome depend on its true value?",
-    "3.4": "If 3.3 is Yes/Probably Yes/No information: Is it likely that missingness in the outcome depended on its true value?",
-    "domain_3_conclusion": "Risk-of-bias judgement, based on 3.1–3.4, for missing outcome data",
-
-    # Domain 4
-    "4.1": "Was the method of measuring the outcome inappropriate?",
-    "4.2": "Could measurement or ascertainment of the outcome have differed between intervention groups?",
-    "4.3": "If 4.1 and 4.2 are No/Probably No/No information: Were outcome assessors aware of the intervention received?",
-    "4.4": "If 4.3 is Yes/Probably Yes/No information: Could assessment of the outcome have been influenced by knowledge of intervention received?",
-    "4.5": "If 4.4 is Yes/Probably Yes/No information: Is it likely that assessment of the outcome was influenced by knowledge of intervention received?",
-    "domain_4_conclusion": "Risk-of-bias judgement, based on 4.1–4.5, for measurement of the outcome",
-
-    # Domain 5
-    "5.1": "Were the data that produced this result analysed in accordance with a pre-specified analysis plan finalized before unblinded outcome data were available?",
-    "5.2": "Is the numerical result likely to have been selected from multiple eligible outcome measurements (scales/definitions/time points) within the domain?",
-    "5.3": "Is the numerical result likely to have been selected from multiple eligible analyses of the data?",
-    "domain_5_conclusion": "Risk-of-bias judgement, based on 5.1–5.3, for selection of the reported result",
-
-    # Overall
-    "overall_risk_of_bias": "Based on all domains, assess the overall risk of bias",
-}
-QID_TO_QUESTION[norm_qid("Overall risk of bias")] = QID_TO_QUESTION["overall_risk_of_bias"]
-
-def question_text_for_qid(qid: str) -> str:
-    return QID_TO_QUESTION.get(norm_qid(qid), "")
-
-# ---------------------------
-# Text utils
-# ---------------------------
-_WS_RE = re.compile(r"\s+")
-_WORD_RE = re.compile(r"[A-Za-z0-9_]+")
-
-def normalize_ws(s: str) -> str:
-    return _WS_RE.sub(" ", s or "").strip()
-
-def tokenize(text: str) -> List[str]:
-    return [w.lower() for w in _WORD_RE.findall(text or "")]
-
-def chunk_text(text: str, chunk_size: int = 1400, overlap: int = 200) -> List[str]:
-    text = normalize_ws(text)
-    if not text:
-        return []
-    chunks = []
-    i = 0
-    while i < len(text):
-        chunk = text[i:i+chunk_size]
-        chunks.append(chunk)
-        if i + chunk_size >= len(text):
-            break
-        i += max(1, chunk_size - overlap)
-    return chunks
-
-# ---------------------------
-# PDF reading
-# ---------------------------
-def read_pdf_text(pdf_path: str) -> str:
-    pages = []
-    with pdfplumber.open(pdf_path) as pdf:
-        for p in pdf.pages:
-            pages.append(p.extract_text() or "")
-    return "\n".join(pages)
-
-# ---------------------------
-# BM25 build & search
-# ---------------------------
-def build_bm25_index(chunks: List[str]) -> Tuple[BM25Okapi, List[List[str]]]:
-    tokenized = [tokenize(c) for c in chunks]
-    index = BM25Okapi(tokenized)
-    return index, tokenized
-
-def bm25_retrieve(index: BM25Okapi, tokenized_corpus: List[List[str]],
-                  query_text: str, corpus_chunks: List[str], top_k: int = 5) -> List[Dict[str, Any]]:
-    q_tokens = tokenize(query_text)
-    scores = index.get_scores(q_tokens)
-    ranked = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
-    results = []
-    for rank, i in enumerate(ranked, start=1):
-        results.append({
-            "rank": rank,
-            "score": float(scores[i]),
-            "chunk_id": int(i),
-            "snippet": corpus_chunks[i]
-        })
-    return results
-
-# ---------------------------
-# GPT call
-# ---------------------------
-def call_gpt(client: OpenAI, model: str, messages: List[Dict[str, str]]) -> Dict[str, Any]:
-    """
-    Calls Chat Completions. If model rejects 'temperature', we omit it and retry once.
-    Expects a JSON object in the response; otherwise returns a default.
-    """
-    kwargs = {"model": model, "messages": messages}
-    if _supports_temperature(model):
-        kwargs["temperature"] = 0
-
-    try:
-        resp = client.chat.completions.create(**kwargs)
-    except BadRequestError as e:
-        msg = getattr(e, "message", "") or str(e)
-        if "temperature" in msg.lower():
-            kwargs.pop("temperature", None)
-            resp = client.chat.completions.create(**kwargs)
-        else:
-            raise
-
-    content = resp.choices[0].message.content
-    try:
-        return json.loads(content)
-    except Exception:
-        return {
-            "verdict": "Not Found",
-            "quote": "",
-            "rationale": "Model returned non-JSON; defaulted to Not Found.",
-            "raw": content,
-        }
-
-# ---------------------------
-# Verdict prompt builder
-# ---------------------------
-SYSTEM_PROMPT = """You are a reviewer of medical literature. 
-Given a machine response (label), a human response (gold), the exact question asked, and retrieved paper excerpts, 
-decide whether the machine's claim is Supported, Contradicted, Not Found, or Out of Scope.
-Return strict JSON only."""
-
-def make_user_prompt(study: str,
-                     question_id: str,
-                     question_text: str,
-                     machine_resp: str,
-                     human_resp: str,
-                     explanation_text: str,
-                     retrieved_chunks: List[Dict[str, Any]]) -> str:
-    ctx_blocks = []
-    for r in retrieved_chunks:
-        ctx_blocks.append(
-            f"[Chunk {r['rank']} | BM25 score={r['score']:.4f}]\n{r['snippet']}"
-        )
-    ctx_text = "\n\n".join(ctx_blocks)
-
-    prompt = f"""
-Study: {study}
-Question ID: {question_id}
-Question: {question_text or '(unknown question text)'} 
-
-Machine response (label): {machine_resp}
-Human (gold) response: {human_resp}
-
-Machine explanation (comment+reasoning):
-\"\"\"{explanation_text.strip()}\"\"\"
-
-Paper excerpts (no pages; chunked):
-{ctx_text}
-
-Task: Considering the specific question above, judge the machine response relative to the study text.
-Answer with this JSON schema only:
-{{
-  "verdict": "Supported | Contradicted | Not Found | Out of Scope",
-  "quote": "A minimal quote supporting your verdict (empty if Not Found/Out of Scope)",
-  "rationale": "One sentence explaining why"
-}}
+Return:
+{{"verdict": "Supported|Contradicted|Not Found|Out of Scope", "quote": "", "rationale": "one concise sentence"}}
 """
-    return prompt.strip()
 
-# ---------------------------
-# Study I/O helpers
-# ---------------------------
-def find_pdf_for_study(pdf_root: str, study_name: str) -> str:
-    study_dir = os.path.join(pdf_root, study_name)
-    if not os.path.isdir(study_dir):
-        return ""
-    pdfs = sorted(glob.glob(os.path.join(study_dir, "*.pdf")))
-    return pdfs[0] if pdfs else ""
 
-def find_json_in_folder(folder: str) -> str:
-    files = sorted(glob.glob(os.path.join(folder, "*.json")))
-    return files[0] if files else ""
+def _normalize_verdict(value: Any) -> dict[str, str]:
+    if not isinstance(value, dict):
+        raise ValueError("Judge response must be a JSON object")
+    verdict = str(value.get("verdict") or "").strip()
+    allowed = {"Supported", "Contradicted", "Not Found", "Out of Scope"}
+    if verdict not in allowed:
+        raise ValueError(f"Invalid verdict: {verdict!r}")
+    quote = str(value.get("quote") or "").strip()
+    if verdict in {"Not Found", "Out of Scope"}:
+        quote = ""
+    return {
+        "verdict": verdict,
+        "quote": quote,
+        "rationale": str(value.get("rationale") or "").strip(),
+    }
 
-def expected_out_path(out_dir: str, in_json_path: str) -> str:
-    return os.path.join(out_dir, os.path.basename(in_json_path)) if in_json_path else ""
 
-def _existing_result_count(path: str) -> int:
-    """
-    Return number of items if `path` exists and is a JSON list; else 0.
-    """
+def _quote_verified(quote: str, retrieved: list[dict[str, Any]]) -> bool | None:
+    if not quote:
+        return None
+    needle = normalize_whitespace(quote).casefold().strip('"')
+    return any(needle in normalize_whitespace(hit["snippet"]).casefold() for hit in retrieved)
+
+
+def _metadata_for_response(path: Path) -> dict[str, Any]:
+    metadata_path = path.parent / "metadata.json"
+    if not metadata_path.exists():
+        return {}
     try:
-        if not (path and os.path.isfile(path) and os.path.getsize(path) > 0):
-            return 0
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        if isinstance(data, list):
-            return len(data)
-        return 0
+        with metadata_path.open("r", encoding="utf-8") as handle:
+            value = json.load(handle)
+        return value if isinstance(value, dict) else {}
     except Exception:
+        return {}
+
+
+def _study_for(path: Path, items: list[dict[str, Any]], metadata: dict[str, Any]) -> str:
+    for source in (metadata, items[0] if items else {}):
+        study = str(source.get("study") or "").strip()
+        if study:
+            return study
+    return path.parent.name if path.parent.name else path.stem
+
+
+def _output_path(input_path: Path, input_root: Path, output_root: Path) -> Path:
+    if input_root.is_file():
+        return output_root / input_path.name
+    return output_root / input_path.relative_to(input_root)
+
+
+def _load_existing(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    try:
+        return load_json_items(path)
+    except Exception:
+        return []
+
+
+def evaluate_file(
+    input_path: Path,
+    input_root: Path,
+    output_root: Path,
+    args: argparse.Namespace,
+    judge: OpenAIJsonClient,
+) -> tuple[int, int]:
+    items = load_json_items(input_path)
+    items = [item for item in items if item.get("question_id")]
+    if not items:
+        raise ValueError(f"No RoB response items in {input_path}")
+    metadata = _metadata_for_response(input_path)
+    study = _study_for(input_path, items, metadata)
+    topic_slug = str(items[0].get("topic_slug") or metadata.get("topic_slug") or "")
+    human_lookup, human_reference_file = _load_human_lookup(
+        args.human_root, topic_slug, study
+    )
+    pdf_path = find_pdf_for_study(args.pdf_root, study)
+    retriever = BM25Retriever(
+        chunk_pdf(pdf_path, chunk_size=args.chunk_size, overlap=args.overlap)
+    )
+    output_path = _output_path(input_path, input_root, output_root)
+    existing = [] if args.overwrite else _load_existing(output_path)
+    completed_ids = {str(item.get("question_id")) for item in existing if item.get("verdict")}
+    results = existing[:]
+
+    pending = [item for item in items if str(item.get("question_id")) not in completed_ids]
+    if args.limit_items:
+        pending = pending[: args.limit_items]
+    for index, item in enumerate(pending, start=1):
+        qid = str(item.get("question_id") or "")
+        print(f"    [{index}/{len(pending)}] {qid}")
+        retrieved = retriever.search(_build_query(item), top_k=args.top_k)
+        call = judge.complete_json(
+            system_prompt=SYSTEM_PROMPT,
+            user_prompt=_judge_prompt(study, item, retrieved),
+            schema_name="evidence_verdict",
+            schema=VERDICT_JSON_SCHEMA,
+        )
+        verdict = _normalize_verdict(call.data)
+        scores = [float(hit["score"]) for hit in retrieved]
+        result = {
+            "study": study,
+            "json_file": input_path.name,
+            "pdf_file": pdf_path.name,
+            "question_id": qid,
+            "question_text": _question_text(item),
+            "machine_response": item.get("response", item.get("machine_response", "")),
+            "human_response": _gold_response(item, human_lookup),
+            "human_reference_file": human_reference_file,
+            "topic": item.get("topic", metadata.get("topic", "")),
+            "topic_slug": item.get("topic_slug", metadata.get("topic_slug", "")),
+            "generator_model": metadata.get("model", args.generator_model or ""),
+            "judge_model": args.judge_model,
+            "explanation_used": _explanation(item),
+            "bm25_topk_scores": scores,
+            "bm25_top_score": max(scores) if scores else None,
+            "bm25_mean_topk": statistics.fmean(scores) if scores else None,
+            "retrieved": retrieved,
+            "verdict": verdict,
+            "quote_verified_in_retrieved": _quote_verified(verdict["quote"], retrieved),
+            "judge_response_id": call.response_id,
+            "judge_output_mode": call.output_mode,
+        }
+        results.append(result)
+        atomic_write_json(output_path, results)
+    return len(pending), len(items)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Retrieve top-k PDF evidence with BM25 and assign item-level grounding verdicts."
+    )
+    parser.add_argument("--responses", "--json", dest="responses", required=True, help="RoB response JSON file or root")
+    parser.add_argument("--pdf-root", "--pdf_root", dest="pdf_root", required=True)
+    parser.add_argument("--output", "--out-json", "--out_json", dest="output", required=True)
+    parser.add_argument(
+        "--judge-model",
+        "--model",
+        dest="judge_model",
+        default="gpt-5",
+        help="OpenAI judge model ID, including gpt-5 or o3-mini",
+    )
+    parser.add_argument("--generator-model", help="Used only when response metadata does not identify it")
+    parser.add_argument(
+        "--human-root",
+        help="Optional extracted-human JSON root; labels are retained in output but hidden from the judge",
+    )
+    parser.add_argument("--api-key-file", "--api_key", dest="api_key_file", help="Otherwise use OPENAI_API_KEY")
+    parser.add_argument(
+        "--reasoning-effort",
+        default="medium",
+        choices=("none", "minimal", "low", "medium", "high", "xhigh"),
+    )
+    parser.add_argument("--top-k", type=int, default=5)
+    parser.add_argument("--chunk-size", type=int, default=1400)
+    parser.add_argument("--overlap", type=int, default=200)
+    parser.add_argument("--limit-files", type=int)
+    parser.add_argument("--limit-items", type=int)
+    parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument("--dry-run", action="store_true")
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    input_root = Path(args.responses)
+    files = find_response_jsons(input_root)
+    if args.limit_files:
+        files = files[: args.limit_files]
+    if not files:
+        raise ValueError(f"No response JSON files found under {input_root}")
+    if args.dry_run:
+        for path in files:
+            items = load_json_items(path)
+            metadata = _metadata_for_response(path)
+            study = _study_for(path, items, metadata)
+            pdf = find_pdf_for_study(args.pdf_root, study)
+            print(f"{path}\t{study}\t{pdf}")
+        print(f"Validated {len(files)} response file(s).")
         return 0
 
-# ---------------------------
-# Study processing
-# ---------------------------
-def process_study(study_dir: str,
-                  pdf_root: str,
-                  client: OpenAI,
-                  model: str,
-                  out_dir: str,
-                  top_k: int = 5,
-                  chunk_size: int = 1400,
-                  overlap: int = 200) -> None:
-    t0 = time.time()
-
-    study_name = os.path.basename(study_dir.rstrip("/"))
-    in_json_path = find_json_in_folder(study_dir)
-    if not in_json_path:
-        print(f"[WARN] No JSON in {study_dir}; skipping.")
-        return
-
-    # --- NEW: skip if already evaluated ---
-    out_path = expected_out_path(out_dir, in_json_path)
-    n_exist = _existing_result_count(out_path)
-    if n_exist > 0:
-        print(f"[SKIP] Study={study_name} already evaluated ({n_exist} items): {out_path}")
-        return
-
-    pdf_path = find_pdf_for_study(pdf_root, study_name)
-    if not pdf_path or not os.path.exists(pdf_path):
-        print(f"[WARN] No PDF for {study_name} at {pdf_root}/{study_name}; skipping.")
-        return
-
-    with open(in_json_path, "r", encoding="utf-8") as f:
+    judge = OpenAIJsonClient(
+        api_key=load_api_key(args.api_key_file),
+        model=args.judge_model,
+        reasoning_effort=args.reasoning_effort,
+    )
+    failures = 0
+    for index, path in enumerate(files, start=1):
+        print(f"[{index}/{len(files)}] {path}")
         try:
-            response_items = json.load(f)
-        except Exception as e:
-            print(f"[WARN] Cannot parse JSON: {in_json_path} ({e}); skipping.")
-            return
-    if not isinstance(response_items, list):
-        print(f"[WARN] JSON not a list: {in_json_path}; skipping.")
-        return
+            processed, total = evaluate_file(
+                path, input_root, Path(args.output), args, judge
+            )
+            print(f"  processed {processed}; total items {total}")
+        except Exception as exc:
+            failures += 1
+            print(f"  ERROR: {type(exc).__name__}: {exc}", file=sys.stderr)
+    return 1 if failures else 0
 
-    # --- READ PDF ONCE ---
-    print(f"[RUN] Study={study_name}  JSON={os.path.basename(in_json_path)}  PDF=OK")
-    paper_text = read_pdf_text(pdf_path)
-    corpus_chunks = chunk_text(paper_text, chunk_size=chunk_size, overlap=overlap)
-    if not corpus_chunks:
-        print(f"[WARN] Empty text extracted from {pdf_path}; skipping.")
-        return
-    t_pdf = time.time()
-
-    # --- BUILD BM25 ONCE ---
-    bm25_idx, tokenized_corpus = build_bm25_index(corpus_chunks)
-    print(f"[INFO] BM25 built: {len(corpus_chunks)} chunks.")
-    t_bm25 = time.time()
-
-    # --- LOOP ALL ITEMS USING SAME INDEX ---
-    results = []
-    gpt_time_accum = 0.0
-    for item in response_items:
-        qid = str(item.get("question_id", ""))
-        qtext = question_text_for_qid(qid)
-
-        resp_label = str(item.get("response", ""))
-        topic = str(item.get("topic", ""))  # may be blank in some files
-        gold = item.get("gold", {}) or {}
-        gold_label = str(gold.get("response", ""))
-
-        # combine comment + reasoning only (skip any 'gold' comments)
-        comment = normalize_ws(item.get("comment", ""))
-        reasoning = normalize_ws(item.get("reasoning", "")) or ""
-        expl = normalize_ws(f"{comment} {reasoning}".strip())
-
-        # Build a stronger BM25 query: question text + machine label + explanation
-        query_bits = [qtext, resp_label, expl]
-        query_text = normalize_ws(" ".join([q for q in query_bits if q]))
-
-        retrieved = bm25_retrieve(bm25_idx, tokenized_corpus, query_text, corpus_chunks, top_k=top_k)
-
-        # Simple retrieval metrics
-        bm25_scores = [r["score"] for r in retrieved]
-        bm25_top = float(bm25_scores[0]) if bm25_scores else 0.0
-        bm25_mean = float(sum(bm25_scores) / len(bm25_scores)) if bm25_scores else 0.0
-
-        # Compose GPT prompt once per item
-        user_prompt = make_user_prompt(
-            study=study_name,
-            question_id=qid,
-            question_text=qtext,
-            machine_resp=resp_label,
-            human_resp=gold_label,
-            explanation_text=expl,
-            retrieved_chunks=retrieved
-        )
-        messages = [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ]
-
-        tg0 = time.time()
-        verdict = call_gpt(client, model, messages)
-        gpt_time_accum += (time.time() - tg0)
-
-        results.append({
-            "study": study_name,
-            "json_file": os.path.basename(in_json_path),
-            "pdf_file": os.path.basename(pdf_path),
-            "question_id": qid,
-            "question_text": qtext,
-            "machine_response": resp_label,
-            "human_response": gold_label,
-            "topic": topic,
-            "explanation_used": expl,
-            "bm25_topk_scores": bm25_scores,
-            "bm25_top_score": bm25_top,
-            "bm25_mean_topk": bm25_mean,
-            "retrieved": retrieved,
-            "verdict": verdict
-        })
-
-    # Save one output per study, reusing the input JSON base name
-    os.makedirs(out_dir, exist_ok=True)
-    out_path = expected_out_path(out_dir, in_json_path)
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2)
-    print(f"[SAVED] → {out_path}")
-
-    # --- TIMING REPORT ---
-    t_end = time.time()
-    total = t_end - t0
-    t_pdf_chunk = t_pdf - t0
-    t_bm_only = t_bm25 - t_pdf
-    t_gpt = gpt_time_accum
-    print(f"[TIME] Study={study_name} total={total:.3f}s "
-          f"(pdf+chunk={t_pdf_chunk:.3f}s, bm25={t_bm_only:.3f}s, gpt_calls={t_gpt:.3f}s, n_items={len(results)})")
-
-# ---------------------------
-# CLI
-# ---------------------------
-def parse_args():
-    ap = argparse.ArgumentParser(description="Optimized hallucination QA with shared BM25 per study.")
-    ap.add_argument("--json", required=True,
-                    help="Root folder containing per-study subfolders with machine-response JSON inside.")
-    ap.add_argument("--pdf_root", required=True,
-                    help="Root folder containing per-study subfolders with the PDF(s).")
-    ap.add_argument("--api_key", required=True,
-                    help="Path to a text file containing the OpenAI API key.")
-    ap.add_argument("--model", default="gpt-5",
-                    help="Model name (e.g., gpt-5, gpt-4o, gpt-3.5-turbo).")
-    ap.add_argument("--out_json", required=True,
-                    help="Output folder for verdict JSONs.")
-    ap.add_argument("--top_k", type=int, default=5, help="BM25 top-k chunks to pass to GPT.")
-    ap.add_argument("--chunk_size", type=int, default=1400, help="Chunk size (characters).")
-    ap.add_argument("--overlap", type=int, default=200, help="Chunk overlap (characters).")
-    return ap.parse_args()
-
-def main():
-    args = parse_args()
-
-    with open(args.api_key, "r", encoding="utf-8") as f:
-        key = f.read().strip()
-    client = OpenAI(api_key=key)
-
-    # Ensure output directory exists (for existence checks & saves)
-    os.makedirs(args.out_json, exist_ok=True)
-
-    # Walk study subfolders within --json
-    study_dirs = [p for p in glob.glob(os.path.join(args.json, "*")) if os.path.isdir(p)]
-    if not study_dirs:
-        print(f"[WARN] No subfolders under {args.json}")
-        return
-
-    for study_dir in study_dirs:
-        # quick pre-check to avoid entering process_study at all
-        in_json_path = find_json_in_folder(study_dir)
-        if in_json_path:
-            out_path = expected_out_path(args.out_json, in_json_path)
-            n_exist = _existing_result_count(out_path)
-            if n_exist > 0:
-                study_name = os.path.basename(study_dir.rstrip("/"))
-                print(f"[SKIP] Study={study_name} already evaluated ({n_exist} items): {out_path}")
-                continue
-
-        process_study(
-            study_dir=study_dir,
-            pdf_root=args.pdf_root,
-            client=client,
-            model=args.model,
-            out_dir=args.out_json,
-            top_k=args.top_k,
-            chunk_size=args.chunk_size,
-            overlap=args.overlap
-        )
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

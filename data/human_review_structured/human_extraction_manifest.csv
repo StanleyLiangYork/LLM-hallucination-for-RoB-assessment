@@ -1,0 +1,247 @@
+status,topic_slug,topic,study,csv_row_numbers,output
+completed,Adverse_event,Adverse events,Acarturk 2022,81,data/human_review_structured/Adverse_event/Acarturk 2022/Acarturk 2022.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Acarturk 2022,90;267;309,data/human_review_structured/Depressive0_1/Acarturk 2022/Acarturk 2022.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Acarturk 2022,108;279;333,data/human_review_structured/Depressive1_6/Acarturk 2022/Acarturk 2022.json
+completed,Diagnosis0_1,Diagnosis of mental disorders at 0-1 months,Acarturk 2022,57,data/human_review_structured/Diagnosis0_1/Acarturk 2022/Acarturk 2022.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Acarturk 2022,60,data/human_review_structured/Diagnosis1_6/Acarturk 2022/Acarturk 2022.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Acarturk 2022,138;290;350,data/human_review_structured/PTSD0_1/Acarturk 2022/Acarturk 2022.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Acarturk 2022,157,data/human_review_structured/PTSD1_6/Acarturk 2022/Acarturk 2022.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Acarturk 2022,82,data/human_review_structured/Psycho0_1/Acarturk 2022/Acarturk 2022.json
+completed,Psycho1_6,Psychological functioning and impairment at 1-6 months,Acarturk 2022,86,data/human_review_structured/Psycho1_6/Acarturk 2022/Acarturk 2022.json
+completed,QOL0_1,Quality of life at 0-1 months,Acarturk 2022,68,data/human_review_structured/QOL0_1/Acarturk 2022/Acarturk 2022.json
+completed,QOL1_6,Quality of life at 1-6 months,Acarturk 2022,76,data/human_review_structured/QOL1_6/Acarturk 2022/Acarturk 2022.json
+completed,QOL0_1,Quality of life at 0-1 months,Ager 2011,200,data/human_review_structured/QOL0_1/Ager 2011/Ager 2011.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Amador Buenabad 2020,180,data/human_review_structured/Psycho0_1/Amador Buenabad 2020/Amador Buenabad 2020.json
+completed,Social0_1,Social outcomes at 0-1 months,Amador Buenabad 2020,194,data/human_review_structured/Social0_1/Amador Buenabad 2020/Amador Buenabad 2020.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Annan 2017,202,data/human_review_structured/Depressive0_1/Annan 2017/Annan 2017.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Annan 2017,201,data/human_review_structured/Psycho0_1/Annan 2017/Annan 2017.json
+completed,Social0_1,Social outcomes at 0-1 months,Annan 2017,212,data/human_review_structured/Social0_1/Annan 2017/Annan 2017.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Asnani 2021,91;261;318,data/human_review_structured/Depressive0_1/Asnani 2021/Asnani 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Baker-Henningham 2005,30,data/human_review_structured/Depressive0_1/Baker-Henningham 2005/Baker-Henningham 2005.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Baker-Henningham 2019,16,data/human_review_structured/PTSD0_1/Baker-Henningham 2019/Baker-Henningham 2019.json
+completed,QOL0_1,Quality of life at 0-1 months,Barbosa Filho 2017,177,data/human_review_structured/QOL0_1/Barbosa Filho 2017/Barbosa Filho 2017.json
+completed,Social0_1,Social outcomes at 0-1 months,Barbosa Filho 2017,195,data/human_review_structured/Social0_1/Barbosa Filho 2017/Barbosa Filho 2017.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Barnes 2019,34,data/human_review_structured/Depressive1_6/Barnes 2019/Barnes 2019.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Baumgartner 2021,92;268;310,data/human_review_structured/Depressive0_1/Baumgartner 2021/Baumgartner 2021.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Baumgartner 2021,119,data/human_review_structured/Depressive7_24/Baumgartner 2021/Baumgartner 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Bell 2008,17,data/human_review_structured/PTSD0_1/Bell 2008/Bell 2008.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Berger 2018,188,data/human_review_structured/Anxiety0_1/Berger 2018/Berger 2018.json
+completed,Anxiety7_24,Anxiety symptoms at 7-24 months,Berger 2018,190,data/human_review_structured/Anxiety7_24/Berger 2018/Berger 2018.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Berger 2018,181,data/human_review_structured/Psycho0_1/Berger 2018/Berger 2018.json
+completed,Psycho7_24,Psychological functioning and impairment at 7-24 months,Berger 2018,183,data/human_review_structured/Psycho7_24/Berger 2018/Berger 2018.json
+completed,Social0_1,Social outcomes at 0-1 months,Berger 2018,196,data/human_review_structured/Social0_1/Berger 2018/Berger 2018.json
+completed,Social7_24,Social outcomes at 7-24 months,Berger 2018,199,data/human_review_structured/Social7_24/Berger 2018/Berger 2018.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Bernardi 2020,127,data/human_review_structured/Anxiety0_1/Bernardi 2020/Bernardi 2020.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Bernardi 2020,83,data/human_review_structured/Psycho0_1/Bernardi 2020/Bernardi 2020.json
+completed,QOL0_1,Quality of life at 0-1 months,Bernardi 2020,69,data/human_review_structured/QOL0_1/Bernardi 2020/Bernardi 2020.json
+completed,Social0_1,Social outcomes at 0-1 months,Bernardi 2020,171,data/human_review_structured/Social0_1/Bernardi 2020/Bernardi 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Cerquera Córdoba 2021,38,data/human_review_structured/PTSD0_1/Cerquera Córdoba 2021/Cerquera Córdoba 2021.json
+completed,PTSD7_24,Distress/PTSD symptoms at 7-24 months,Cerquera Córdoba 2021,50,data/human_review_structured/PTSD7_24/Cerquera Córdoba 2021/Cerquera Córdoba 2021.json
+completed,Social0_1,Social outcomes at 0-1 months,Cerquera Córdoba 2021,51,data/human_review_structured/Social0_1/Cerquera Córdoba 2021/Cerquera Córdoba 2021.json
+completed,Social7_24,Social outcomes at 7-24 months,Cerquera Córdoba 2021,56,data/human_review_structured/Social7_24/Cerquera Córdoba 2021/Cerquera Córdoba 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Chaharrahifard 2021,93;262;319,data/human_review_structured/Depressive0_1/Chaharrahifard 2021/Chaharrahifard 2021.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Chaharrahifard 2021,109;284;327,data/human_review_structured/Depressive1_6/Chaharrahifard 2021/Chaharrahifard 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Chaharrahifard 2021,139;304;339,data/human_review_structured/PTSD0_1/Chaharrahifard 2021/Chaharrahifard 2021.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Chaharrahifard 2021,158,data/human_review_structured/PTSD1_6/Chaharrahifard 2021/Chaharrahifard 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Chang 2015,94;269;320,data/human_review_structured/Depressive0_1/Chang 2015/Chang 2015.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Chattha 2008,39,data/human_review_structured/PTSD0_1/Chattha 2008/Chattha 2008.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Cheng 2021,140;305;340,data/human_review_structured/PTSD0_1/Cheng 2021/Cheng 2021.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Cheng 2021,159,data/human_review_structured/PTSD1_6/Cheng 2021/Cheng 2021.json
+completed,QOL0_1,Quality of life at 0-1 months,Cheng 2021,70,data/human_review_structured/QOL0_1/Cheng 2021/Cheng 2021.json
+completed,QOL1_6,Quality of life at 1-6 months,Cheng 2021,77,data/human_review_structured/QOL1_6/Cheng 2021/Cheng 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Chew 2018,95;257;263;321,data/human_review_structured/Depressive0_1/Chew 2018/Chew 2018.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Chew 2018,110;285;328,data/human_review_structured/Depressive1_6/Chew 2018/Chew 2018.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Chew 2018,120,data/human_review_structured/Depressive7_24/Chew 2018/Chew 2018.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Chew 2018,141;259;306;341,data/human_review_structured/PTSD0_1/Chew 2018/Chew 2018.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Chew 2018,160,data/human_review_structured/PTSD1_6/Chew 2018/Chew 2018.json
+completed,PTSD7_24,Distress/PTSD symptoms at 7-24 months,Chew 2018,166,data/human_review_structured/PTSD7_24/Chew 2018/Chew 2018.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Chew 2018,84;255,data/human_review_structured/Psycho0_1/Chew 2018/Chew 2018.json
+completed,Psycho1_6,Psychological functioning and impairment at 1-6 months,Chew 2018,87,data/human_review_structured/Psycho1_6/Chew 2018/Chew 2018.json
+completed,Psycho7_24,Psychological functioning and impairment at 7-24 months,Chew 2018,88,data/human_review_structured/Psycho7_24/Chew 2018/Chew 2018.json
+completed,QOL1_6,Quality of life at 1-6 months,Chew 2018,78,data/human_review_structured/QOL1_6/Chew 2018/Chew 2018.json
+completed,QOL7_24,Quality of life at 7-24 months,Chew 2018,80,data/human_review_structured/QOL7_24/Chew 2018/Chew 2018.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Chomat 2019,142;291;351,data/human_review_structured/PTSD0_1/Chomat 2019/Chomat 2019.json
+completed,QOL0_1,Quality of life at 0-1 months,Chomat 2019,71,data/human_review_structured/QOL0_1/Chomat 2019/Chomat 2019.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Cooper 2009,111;280;329,data/human_review_structured/Depressive1_6/Cooper 2009/Cooper 2009.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Cooper 2009,121,data/human_review_structured/Depressive7_24/Cooper 2009/Cooper 2009.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Cooper 2009,61,data/human_review_structured/Diagnosis1_6/Cooper 2009/Cooper 2009.json
+completed,Diagnosis7_24,Diagnosis of mental disorders at 7-24 months,Cooper 2009,66,data/human_review_structured/Diagnosis7_24/Cooper 2009/Cooper 2009.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Dayhimi 2020,132,data/human_review_structured/Anxiety1_6/Dayhimi 2020/Dayhimi 2020.json
+completed,Adverse_event,Adverse events,Devries 2015,179,data/human_review_structured/Adverse_event/Devries 2015/Devries 2015.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Devries 2015,191,data/human_review_structured/PTSD0_1/Devries 2015/Devries 2015.json
+completed,QOL0_1,Quality of life at 0-1 months,Devries 2015,178,data/human_review_structured/QOL0_1/Devries 2015/Devries 2015.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Dhital 2019,204,data/human_review_structured/Depressive1_6/Dhital 2019/Dhital 2019.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Dhital 2019,211,data/human_review_structured/PTSD1_6/Dhital 2019/Dhital 2019.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Dias 2008,45,data/human_review_structured/PTSD1_6/Dias 2008/Dias 2008.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Dias 2019,143;292;342,data/human_review_structured/PTSD0_1/Dias 2019/Dias 2019.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Dias 2019,161,data/human_review_structured/PTSD1_6/Dias 2019/Dias 2019.json
+completed,PTSD7_24,Distress/PTSD symptoms at 7-24 months,Dias 2019,167,data/human_review_structured/PTSD7_24/Dias 2019/Dias 2019.json
+completed,Psycho7_24,Psychological functioning and impairment at 7-24 months,Dias 2019,89,data/human_review_structured/Psycho7_24/Dias 2019/Dias 2019.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Duan 2019,9,data/human_review_structured/Depressive0_1/Duan 2019/Duan 2019.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Duan 2019,18,data/human_review_structured/PTSD0_1/Duan 2019/Duan 2019.json
+completed,QOL0_1,Quality of life at 0-1 months,Duan 2019,4,data/human_review_structured/QOL0_1/Duan 2019/Duan 2019.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Duru Aşiret 2021,162,data/human_review_structured/PTSD1_6/Duru Aşiret 2021/Duru Aşiret 2021.json
+completed,QOL1_6,Quality of life at 1-6 months,Duru Aşiret 2021,79,data/human_review_structured/QOL1_6/Duru Aşiret 2021/Duru Aşiret 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Dybdahl 2001,144;293;343,data/human_review_structured/PTSD0_1/Dybdahl 2001/Dybdahl 2001.json
+completed,QOL0_1,Quality of life at 0-1 months,Dybdahl 2001,72,data/human_review_structured/QOL0_1/Dybdahl 2001/Dybdahl 2001.json
+completed,Social0_1,Social outcomes at 0-1 months,Dybdahl 2001,172,data/human_review_structured/Social0_1/Dybdahl 2001/Dybdahl 2001.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Eloff 2014,112;281;334,data/human_review_structured/Depressive1_6/Eloff 2014/Eloff 2014.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Eloff 2014,122,data/human_review_structured/Depressive7_24/Eloff 2014/Eloff 2014.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Eloff 2014,163,data/human_review_structured/PTSD1_6/Eloff 2014/Eloff 2014.json
+completed,PTSD7_24,Distress/PTSD symptoms at 7-24 months,Eloff 2014,168,data/human_review_structured/PTSD7_24/Eloff 2014/Eloff 2014.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Escolar 2014,96;264;311,data/human_review_structured/Depressive0_1/Escolar 2014/Escolar 2014.json
+completed,QOL0_1,Quality of life at 0-1 months,Escolar 2014,73,data/human_review_structured/QOL0_1/Escolar 2014/Escolar 2014.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Fabbri 2021,205,data/human_review_structured/Depressive1_6/Fabbri 2021/Fabbri 2021.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Fabbri 2021,207,data/human_review_structured/Depressive7_24/Fabbri 2021/Fabbri 2021.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Ferreira-Vorkapic 2018,128,data/human_review_structured/Anxiety0_1/Ferreira-Vorkapic 2018/Ferreira-Vorkapic 2018.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Ferreira-Vorkapic 2018,97;270;322,data/human_review_structured/Depressive0_1/Ferreira-Vorkapic 2018/Ferreira-Vorkapic 2018.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Ferreira-Vorkapic 2018,145;294;344,data/human_review_structured/PTSD0_1/Ferreira-Vorkapic 2018/Ferreira-Vorkapic 2018.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Fine 2021,223,data/human_review_structured/Depressive0_1/Fine 2021/Fine 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Fine 2021,240,data/human_review_structured/PTSD0_1/Fine 2021/Fine 2021.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Fine 2021,218,data/human_review_structured/Psycho0_1/Fine 2021/Fine 2021.json
+completed,QOL0_1,Quality of life at 0-1 months,Fine 2021,216,data/human_review_structured/QOL0_1/Fine 2021/Fine 2021.json
+completed,Social0_1,Social outcomes at 0-1 months,Fine 2021,244,data/human_review_structured/Social0_1/Fine 2021/Fine 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Gao 2015,98;265;323,data/human_review_structured/Depressive0_1/Gao 2015/Gao 2015.json
+completed,Social0_1,Social outcomes at 0-1 months,Gao 2015,173,data/human_review_structured/Social0_1/Gao 2015/Gao 2015.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Gavrilova 2009,164,data/human_review_structured/PTSD1_6/Gavrilova 2009/Gavrilova 2009.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,George 2020,2,data/human_review_structured/Diagnosis1_6/George 2020/George 2020.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Hajarian Abhari 2021,129,data/human_review_structured/Anxiety0_1/Hajarian Abhari 2021/Hajarian Abhari 2021.json
+completed,QOL1_6,Quality of life at 1-6 months,Hamdani 2021a,25;252,data/human_review_structured/QOL1_6/Hamdani 2021a/Hamdani 2021a.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Hendriks 2019,15,data/human_review_structured/Anxiety0_1/Hendriks 2019/Hendriks 2019.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Hendriks 2019,10,data/human_review_structured/Depressive0_1/Hendriks 2019/Hendriks 2019.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Hendriks 2019,19,data/human_review_structured/PTSD0_1/Hendriks 2019/Hendriks 2019.json
+completed,QOL0_1,Quality of life at 0-1 months,Hendriks 2019,5,data/human_review_structured/QOL0_1/Hendriks 2019/Hendriks 2019.json
+completed,Social0_1,Social outcomes at 0-1 months,Hendriks 2019,20,data/human_review_structured/Social0_1/Hendriks 2019/Hendriks 2019.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Hinton 2021,99;271;324,data/human_review_structured/Depressive0_1/Hinton 2021/Hinton 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Hinton 2021,146;295;345,data/human_review_structured/PTSD0_1/Hinton 2021/Hinton 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Hirani 2010,31,data/human_review_structured/Depressive0_1/Hirani 2010/Hirani 2010.json
+completed,QOL0_1,Quality of life at 0-1 months,Hirani 2018,6,data/human_review_structured/QOL0_1/Hirani 2018/Hirani 2018.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Huang 2017,185,data/human_review_structured/Depressive1_6/Huang 2017/Huang 2017.json
+completed,Psycho1_6,Psychological functioning and impairment at 1-6 months,Huang 2017,182,data/human_review_structured/Psycho1_6/Huang 2017/Huang 2017.json
+completed,Social1_6,Social outcomes at 1-6 months,Huang 2017,197,data/human_review_structured/Social1_6/Huang 2017/Huang 2017.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Hull 2021,234,data/human_review_structured/Anxiety0_1/Hull 2021/Hull 2021.json
+completed,Social0_1,Social outcomes at 0-1 months,Hull 2021,245,data/human_review_structured/Social0_1/Hull 2021/Hull 2021.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Jewkes 2008,13,data/human_review_structured/Depressive7_24/Jewkes 2008/Jewkes 2008.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Jiang 2021,165,data/human_review_structured/PTSD1_6/Jiang 2021/Jiang 2021.json
+completed,PTSD7_24,Distress/PTSD symptoms at 7-24 months,Jiang 2021,169,data/human_review_structured/PTSD7_24/Jiang 2021/Jiang 2021.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Jordans 2010,237,data/human_review_structured/Anxiety1_6/Jordans 2010/Jordans 2010.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Jordans 2010,227,data/human_review_structured/Depressive1_6/Jordans 2010/Jordans 2010.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Jordans 2010,242,data/human_review_structured/PTSD1_6/Jordans 2010/Jordans 2010.json
+completed,Psycho1_6,Psychological functioning and impairment at 1-6 months,Jordans 2010,220,data/human_review_structured/Psycho1_6/Jordans 2010/Jordans 2010.json
+completed,Social1_6,Social outcomes at 1-6 months,Jordans 2010,246,data/human_review_structured/Social1_6/Jordans 2010/Jordans 2010.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Lachman 2017,100;272;312,data/human_review_structured/Depressive0_1/Lachman 2017/Lachman 2017.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Lachman 2017,147;296;352,data/human_review_structured/PTSD0_1/Lachman 2017/Lachman 2017.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Lachman 2020,101;273;313,data/human_review_structured/Depressive0_1/Lachman 2020/Lachman 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Lachman 2020,148;297;353,data/human_review_structured/PTSD0_1/Lachman 2020/Lachman 2020.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Langer 1996,37,data/human_review_structured/Anxiety1_6/Langer 1996/Langer 1996.json
+completed,QOL0_1,Quality of life at 0-1 months,Latina 2019,7,data/human_review_structured/QOL0_1/Latina 2019/Latina 2019.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Leventhal 2015,238,data/human_review_structured/Anxiety1_6/Leventhal 2015/Leventhal 2015.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Leventhal 2015,228,data/human_review_structured/Depressive1_6/Leventhal 2015/Leventhal 2015.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Li 2019,40,data/human_review_structured/PTSD0_1/Li 2019/Li 2019.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Luoto 2020,102;274;325,data/human_review_structured/Depressive0_1/Luoto 2020/Luoto 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Luoto 2020,149;298;346,data/human_review_structured/PTSD0_1/Luoto 2020/Luoto 2020.json
+completed,Social0_1,Social outcomes at 0-1 months,Luoto 2020,174,data/human_review_structured/Social0_1/Luoto 2020/Luoto 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,McCann 2015,41,data/human_review_structured/PTSD0_1/McCann 2015/McCann 2015.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,McCann 2015,46,data/human_review_structured/PTSD1_6/McCann 2015/McCann 2015.json
+completed,QOL0_1,Quality of life at 0-1 months,McCann 2015,22;250,data/human_review_structured/QOL0_1/McCann 2015/McCann 2015.json
+completed,QOL1_6,Quality of life at 1-6 months,McCann 2015,26,data/human_review_structured/QOL1_6/McCann 2015/McCann 2015.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Miller 2020,42,data/human_review_structured/PTSD0_1/Miller 2020/Miller 2020.json
+completed,QOL0_1,Quality of life at 0-1 months,Miller 2020,23;251,data/human_review_structured/QOL0_1/Miller 2020/Miller 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Mohamadi 2021,192,data/human_review_structured/PTSD0_1/Mohamadi 2021/Mohamadi 2021.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Mohamadi 2021,193,data/human_review_structured/PTSD1_6/Mohamadi 2021/Mohamadi 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Novelli 2018,150;307;347,data/human_review_structured/PTSD0_1/Novelli 2018/Novelli 2018.json
+completed,QOL0_1,Quality of life at 0-1 months,Novelli 2018,74,data/human_review_structured/QOL0_1/Novelli 2018/Novelli 2018.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Osborn 2020,235,data/human_review_structured/Anxiety0_1/Osborn 2020/Osborn 2020.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Osborn 2020,224,data/human_review_structured/Depressive0_1/Osborn 2020/Osborn 2020.json
+completed,QOL0_1,Quality of life at 0-1 months,Osborn 2020,217,data/human_review_structured/QOL0_1/Osborn 2020/Osborn 2020.json
+completed,QOL1_6,Quality of life at 1-6 months,Ozcan 2020,27,data/human_review_structured/QOL1_6/Ozcan 2020/Ozcan 2020.json
+completed,Social1_6,Social outcomes at 1-6 months,Ozcan 2020,54,data/human_review_structured/Social1_6/Ozcan 2020/Ozcan 2020.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,O’Callaghan 2014,203,data/human_review_structured/Depressive0_1/O’Callaghan 2014/O’Callaghan 2014.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,O’Callaghan 2014,210,data/human_review_structured/PTSD0_1/O’Callaghan 2014/O’Callaghan 2014.json
+completed,Social0_1,Social outcomes at 0-1 months,O’Callaghan 2014,213,data/human_review_structured/Social0_1/O’Callaghan 2014/O’Callaghan 2014.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Rachasrimuang 2018,35,data/human_review_structured/Depressive1_6/Rachasrimuang 2018/Rachasrimuang 2018.json
+completed,QOL1_6,Quality of life at 1-6 months,Rachasrimuang 2018,28;253,data/human_review_structured/QOL1_6/Rachasrimuang 2018/Rachasrimuang 2018.json
+completed,QOL0_1,Quality of life at 0-1 months,Rahimi 2021a,24,data/human_review_structured/QOL0_1/Rahimi 2021a/Rahimi 2021a.json
+completed,Social0_1,Social outcomes at 0-1 months,Rahimi 2021a,52,data/human_review_structured/Social0_1/Rahimi 2021a/Rahimi 2021a.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Rahman 2009,47,data/human_review_structured/PTSD1_6/Rahman 2009/Rahman 2009.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Rajeswari 2020,113;286;330,data/human_review_structured/Depressive1_6/Rajeswari 2020/Rajeswari 2020.json
+completed,Diagnosis0_1,Diagnosis of mental disorders at 0-1 months,Rajeswari 2020,58;248,data/human_review_structured/Diagnosis0_1/Rajeswari 2020/Rajeswari 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Rajeswari 2020,151;308;348,data/human_review_structured/PTSD0_1/Rajeswari 2020/Rajeswari 2020.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Ramezani 2017,32,data/human_review_structured/Depressive0_1/Ramezani 2017/Ramezani 2017.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Ramezani 2017,43,data/human_review_structured/PTSD0_1/Ramezani 2017/Ramezani 2017.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Rao 2017,130,data/human_review_structured/Anxiety0_1/Rao 2017/Rao 2017.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Rao 2017,152;299;356,data/human_review_structured/PTSD0_1/Rao 2017/Rao 2017.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Richards 2014,209,data/human_review_structured/Anxiety1_6/Richards 2014/Richards 2014.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Richards 2014,206,data/human_review_structured/Depressive1_6/Richards 2014/Richards 2014.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Rivet-Duval 2011,184,data/human_review_structured/Depressive0_1/Rivet-Duval 2011/Rivet-Duval 2011.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Rivet-Duval 2011,186,data/human_review_structured/Depressive1_6/Rivet-Duval 2011/Rivet-Duval 2011.json
+completed,Diagnosis7_24,Diagnosis of mental disorders at 7-24 months,Rockers 2018,3,data/human_review_structured/Diagnosis7_24/Rockers 2018/Rockers 2018.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Rodriguez 2021,131,data/human_review_structured/Anxiety0_1/Rodriguez 2021/Rodriguez 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Rodriguez 2021,103;275;326,data/human_review_structured/Depressive0_1/Rodriguez 2021/Rodriguez 2021.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Rodriguez 2021,153;300;349,data/human_review_structured/PTSD0_1/Rodriguez 2021/Rodriguez 2021.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Rong 2021a,133,data/human_review_structured/Anxiety1_6/Rong 2021a/Rong 2021a.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Rong 2021a,114;282;335,data/human_review_structured/Depressive1_6/Rong 2021a/Rong 2021a.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Rong 2021b,115;287;337,data/human_review_structured/Depressive1_6/Rong 2021b/Rong 2021b.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Rong 2021b,62,data/human_review_structured/Diagnosis1_6/Rong 2021b/Rong 2021b.json
+completed,Diagnosis0_1,Diagnosis of mental disorders at 0-1 months,Rotheram-Borus 2014a,59;249,data/human_review_structured/Diagnosis0_1/Rotheram-Borus 2014a/Rotheram-Borus 2014a.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Rotheram-Borus 2014a,63,data/human_review_structured/Diagnosis1_6/Rotheram-Borus 2014a/Rotheram-Borus 2014a.json
+completed,Diagnosis7_24,Diagnosis of mental disorders at 7-24 months,Rotheram-Borus 2014a,67,data/human_review_structured/Diagnosis7_24/Rotheram-Borus 2014a/Rotheram-Borus 2014a.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Rotheram-Borus 2014b,64,data/human_review_structured/Diagnosis1_6/Rotheram-Borus 2014b/Rotheram-Borus 2014b.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Sanfilippo 2020,33,data/human_review_structured/Depressive0_1/Sanfilippo 2020/Sanfilippo 2020.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Sanfilippo 2020,36,data/human_review_structured/Depressive1_6/Sanfilippo 2020/Sanfilippo 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Sanfilippo 2020,44,data/human_review_structured/PTSD0_1/Sanfilippo 2020/Sanfilippo 2020.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Sanfilippo 2020,48,data/human_review_structured/PTSD1_6/Sanfilippo 2020/Sanfilippo 2020.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Sangraula 2020,104;258;276;314,data/human_review_structured/Depressive0_1/Sangraula 2020/Sangraula 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Sangraula 2020,154;260;301;354,data/human_review_structured/PTSD0_1/Sangraula 2020/Sangraula 2020.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Sangraula 2020,85;256,data/human_review_structured/Psycho0_1/Sangraula 2020/Sangraula 2020.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Sherman 2009,123,data/human_review_structured/Depressive7_24/Sherman 2009/Sherman 2009.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Shinde 2018,229,data/human_review_structured/Depressive1_6/Shinde 2018/Shinde 2018.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Shinde 2018,233,data/human_review_structured/Depressive7_24/Shinde 2018/Shinde 2018.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Singla 2015,116;283;331,data/human_review_structured/Depressive1_6/Singla 2015/Singla 2015.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Skar 2021,65,data/human_review_structured/Diagnosis1_6/Skar 2021/Skar 2021.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Song 2019,105;266;315,data/human_review_structured/Depressive0_1/Song 2019/Song 2019.json
+completed,QOL0_1,Quality of life at 0-1 months,Song 2019,75,data/human_review_structured/QOL0_1/Song 2019/Song 2019.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Srisuwan 2020,134,data/human_review_structured/Anxiety1_6/Srisuwan 2020/Srisuwan 2020.json
+completed,Anxiety7_24,Anxiety symptoms at 7-24 months,Srisuwan 2020,136,data/human_review_structured/Anxiety7_24/Srisuwan 2020/Srisuwan 2020.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Srisuwan 2020,117;288;332,data/human_review_structured/Depressive1_6/Srisuwan 2020/Srisuwan 2020.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Srisuwan 2020,124,data/human_review_structured/Depressive7_24/Srisuwan 2020/Srisuwan 2020.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Thurman 2017,230,data/human_review_structured/Depressive1_6/Thurman 2017/Thurman 2017.json
+completed,Psycho1_6,Psychological functioning and impairment at 1-6 months,Thurman 2017,221,data/human_review_structured/Psycho1_6/Thurman 2017/Thurman 2017.json
+completed,Social1_6,Social outcomes at 1-6 months,Thurman 2017,247,data/human_review_structured/Social1_6/Thurman 2017/Thurman 2017.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Tobias da Silva 2017,208,data/human_review_structured/Anxiety0_1/Tobias da Silva 2017/Tobias da Silva 2017.json
+completed,Anxiety0_1,Anxiety symptoms at 0-1 months,Tol 2012,236,data/human_review_structured/Anxiety0_1/Tol 2012/Tol 2012.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Tol 2012,239,data/human_review_structured/Anxiety1_6/Tol 2012/Tol 2012.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Tol 2012,225,data/human_review_structured/Depressive0_1/Tol 2012/Tol 2012.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Tol 2012,231,data/human_review_structured/Depressive1_6/Tol 2012/Tol 2012.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Tol 2012,241,data/human_review_structured/PTSD0_1/Tol 2012/Tol 2012.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Tol 2012,243,data/human_review_structured/PTSD1_6/Tol 2012/Tol 2012.json
+completed,Psycho0_1,Psychological functioning and impairment at 0-1 months,Tol 2012,219,data/human_review_structured/Psycho0_1/Tol 2012/Tol 2012.json
+completed,Psycho1_6,Psychological functioning and impairment at 1-6 months,Tol 2012,222,data/human_review_structured/Psycho1_6/Tol 2012/Tol 2012.json
+completed,Diagnosis7_24,Diagnosis of mental disorders at 7-24 months,Tripathy 2010,21,data/human_review_structured/Diagnosis7_24/Tripathy 2010/Tripathy 2010.json
+completed,Social0_1,Social outcomes at 0-1 months,Vargas-Porras 2021,53,data/human_review_structured/Social0_1/Vargas-Porras 2021/Vargas-Porras 2021.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Velásquez 2015,189,data/human_review_structured/Anxiety1_6/Velásquez 2015/Velásquez 2015.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Velásquez 2015,187,data/human_review_structured/Depressive1_6/Velásquez 2015/Velásquez 2015.json
+completed,Social1_6,Social outcomes at 1-6 months,Velásquez 2015,198,data/human_review_structured/Social1_6/Velásquez 2015/Velásquez 2015.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Ward 2020,106;277;316,data/human_review_structured/Depressive0_1/Ward 2020/Ward 2020.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Ward 2020,125,data/human_review_structured/Depressive7_24/Ward 2020/Ward 2020.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Ward 2020,155;302;355,data/human_review_structured/PTSD0_1/Ward 2020/Ward 2020.json
+completed,PTSD7_24,Distress/PTSD symptoms at 7-24 months,Ward 2020,170,data/human_review_structured/PTSD7_24/Ward 2020/Ward 2020.json
+completed,Social0_1,Social outcomes at 0-1 months,Ward 2020,175,data/human_review_structured/Social0_1/Ward 2020/Ward 2020.json
+completed,Social7_24,Social outcomes at 7-24 months,Ward 2020,176,data/human_review_structured/Social7_24/Ward 2020/Ward 2020.json
+completed,Anxiety1_6,Anxiety symptoms at 1-6 months,Xu 2021,135,data/human_review_structured/Anxiety1_6/Xu 2021/Xu 2021.json
+completed,Anxiety7_24,Anxiety symptoms at 7-24 months,Xu 2021,137,data/human_review_structured/Anxiety7_24/Xu 2021/Xu 2021.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Xu 2021,118;289;336,data/human_review_structured/Depressive1_6/Xu 2021/Xu 2021.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Xu 2021,126,data/human_review_structured/Depressive7_24/Xu 2021/Xu 2021.json
+completed,PTSD1_6,Distress/PTSD symptoms at 1-6 months,Yang 2022,49,data/human_review_structured/PTSD1_6/Yang 2022/Yang 2022.json
+completed,QOL1_6,Quality of life at 1-6 months,Yang 2022,29;254,data/human_review_structured/QOL1_6/Yang 2022/Yang 2022.json
+completed,Social1_6,Social outcomes at 1-6 months,Yang 2022,55,data/human_review_structured/Social1_6/Yang 2022/Yang 2022.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Yeomans 2010,107;278;317,data/human_review_structured/Depressive0_1/Yeomans 2010/Yeomans 2010.json
+completed,PTSD0_1,Distress/PTSD symptoms at 0-1 months,Yeomans 2010,156;303;338,data/human_review_structured/PTSD0_1/Yeomans 2010/Yeomans 2010.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Yu 2002,226,data/human_review_structured/Depressive0_1/Yu 2002/Yu 2002.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Yu 2002,232,data/human_review_structured/Depressive1_6/Yu 2002/Yu 2002.json
+completed,Diagnosis0_1,Diagnosis of mental disorders at 0-1 months,Yu 2002,214,data/human_review_structured/Diagnosis0_1/Yu 2002/Yu 2002.json
+completed,Diagnosis1_6,Diagnosis of mental disorders at 1-6 months,Yu 2002,215,data/human_review_structured/Diagnosis1_6/Yu 2002/Yu 2002.json
+completed,Depressive0_1,Depressive symptoms at 0-1 months,Yusoff 2015,11,data/human_review_structured/Depressive0_1/Yusoff 2015/Yusoff 2015.json
+completed,Depressive1_6,Depressive symptoms at 1-6 months,Yusoff 2015,12,data/human_review_structured/Depressive1_6/Yusoff 2015/Yusoff 2015.json
+completed,Depressive7_24,Depressive symptoms at 7-24 months,Yusoff 2015,14,data/human_review_structured/Depressive7_24/Yusoff 2015/Yusoff 2015.json
+completed,QOL7_24,Quality of life at 7-24 months,Zhou 2010,8,data/human_review_structured/QOL7_24/Zhou 2010/Zhou 2010.json

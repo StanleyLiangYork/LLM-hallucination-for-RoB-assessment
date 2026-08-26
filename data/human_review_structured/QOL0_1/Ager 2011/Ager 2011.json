@@ -1,0 +1,733 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "1a.1: PN.",
+    "source_occurrences": [
+      "1a.1: PN."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Randomization was with a coin toss, no specifications are given on who conducted the randomization and on allocation concealment",
+    "source_text": "1a.2: NI. Note: Randomization was with a coin toss, no specifications are given on who conducted the randomization and on allocation concealment.\n1a.2: NI. Note: Randomization was with a coin toss, no specifications are given on who conducted the randomization and on allocation concealment.",
+    "source_occurrences": [
+      "1a.2: NI. Note: Randomization was with a coin toss, no specifications are given on who conducted the randomization and on allocation concealment.",
+      "1a.2: NI. Note: Randomization was with a coin toss, no specifications are given on who conducted the randomization and on allocation concealment."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "no useful information is reported to evaluate this element",
+    "source_text": "1a.3: NI. Note: no useful information is reported to evaluate this element",
+    "source_occurrences": [
+      "1a.3: NI. Note: no useful information is reported to evaluate this element"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "First the schools were randomized to the intervention or control group, then participants were identified. \"From each of the eight intervention schools, the first group of 25 students selected to undergo the PSSA\nprogram in the school year 2007/08 was the focus of the evaluation\"",
+    "source_text": "1b.1: PN Note: First the schools were randomized to the intervention or control group, then participants were identified. \"From each of the eight intervention schools, the first group of 25 students selected to undergo the PSSA\nprogram in the school year 2007/08 was the focus of the evaluation\";",
+    "source_occurrences": [
+      "1b.1: PN Note: First the schools were randomized to the intervention or control group, then participants were identified. \"From each of the eight intervention schools, the first group of 25 students selected to undergo the PSSA\nprogram in the school year 2007/08 was the focus of the evaluation\";"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "there is no evidence to suggest that selection was affected by knowledge of the intervention assigned to the cluster",
+    "source_text": "1b.2: PN. Note: there is no evidence to suggest that selection was affected by knowledge of the intervention assigned to the cluster;",
+    "source_occurrences": [
+      "1b.2: PN. Note: there is no evidence to suggest that selection was affected by knowledge of the intervention assigned to the cluster;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Quote: \"At baseline there was no significant difference\nbetween intervention and comparison groups on age (F(1,401) = 1.79, p > .05) or gender (chi-square\n= .48, df: 1, p > .05). Children’s, parents’ and\nteachers’ ratings of children’s well-being at baseline\nare summarized in Table 3.\"; No table is reported for age and gender, table 3 does not report p-values",
+    "source_text": "1b.3: NI . Quote: \"At baseline there was no significant difference\nbetween intervention and comparison groups on age (F(1,401) = 1.79, p > .05) or gender (chi-square\n= .48, df: 1, p > .05). Children’s, parents’ and\nteachers’ ratings of children’s well-being at baseline\nare summarized in Table 3.\"; No table is reported for age and gender, table 3 does not report p-values.",
+    "source_occurrences": [
+      "1b.3: NI . Quote: \"At baseline there was no significant difference\nbetween intervention and comparison groups on age (F(1,401) = 1.79, p > .05) or gender (chi-square\n= .48, df: 1, p > .05). Children’s, parents’ and\nteachers’ ratings of children’s well-being at baseline\nare summarized in Table 3.\"; No table is reported for age and gender, table 3 does not report p-values."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "2.1a: NI;",
+    "source_occurrences": [
+      "2.1a: NI;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b: PY;",
+    "source_occurrences": [
+      "2.1b: PY;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Relatives provided the informed consent, no information on what specifications they were given is provided. Participants were most likely aware of their assigned intervention due to the nature of the intervention itself",
+    "source_text": "2.2: PY. Note: Relatives provided the informed consent, no information on what specifications they were given is provided. Participants were most likely aware of their assigned intervention due to the nature of the intervention itself.",
+    "source_occurrences": [
+      "2.2: PY. Note: Relatives provided the informed consent, no information on what specifications they were given is provided. Participants were most likely aware of their assigned intervention due to the nature of the intervention itself."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"In original program documentation these components had related to distinct program goals of\n‘enhancing school performance’, ‘increasing participation in social activities and self-help community initiatives’ and ‘improving care and emotional support\nreceived in families’. However, through inception, the\nprogram elements were increasingly seen as connected\nto the core goal of enhancing child well-being and\n‘resilience’. With this construct the central focus of\nchange, the study focused on operationalization of this\nconcept\"",
+    "source_text": "2.3: PY. Quote: \"In original program documentation these components had related to distinct program goals of\n‘enhancing school performance’, ‘increasing participation in social activities and self-help community initiatives’ and ‘improving care and emotional support\nreceived in families’. However, through inception, the\nprogram elements were increasingly seen as connected\nto the core goal of enhancing child well-being and\n‘resilience’. With this construct the central focus of\nchange, the study focused on operationalization of this\nconcept\"",
+    "source_occurrences": [
+      "2.3: PY. Quote: \"In original program documentation these components had related to distinct program goals of\n‘enhancing school performance’, ‘increasing participation in social activities and self-help community initiatives’ and ‘improving care and emotional support\nreceived in families’. However, through inception, the\nprogram elements were increasingly seen as connected\nto the core goal of enhancing child well-being and\n‘resilience’. With this construct the central focus of\nchange, the study focused on operationalization of this\nconcept\""
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that deviations could have affected the outcome",
+    "source_text": "2.4: PN. Note: No evidence to suggest that deviations could have affected the outcome",
+    "source_occurrences": [
+      "2.4: PN. Note: No evidence to suggest that deviations could have affected the outcome"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "The method section referring to statistical analysis is missing. Information provided is insufficient",
+    "source_text": "2.6: NI. Note: The method section referring to statistical analysis is missing. Information provided is insufficient.",
+    "source_occurrences": [
+      "2.6: NI. Note: The method section referring to statistical analysis is missing. Information provided is insufficient."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "2.7: NI.",
+    "source_occurrences": [
+      "2.7: NI."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "3.1a: NI;",
+    "source_occurrences": [
+      "3.1a: NI;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "403 students took part in the study, more than 150 were lost at follow-up (37.2%). No specific number of loss at follow-up is reported",
+    "source_text": "3.1b: PN. Note: 403 students took part in the study, more than 150 were lost at follow-up (37.2%). No specific number of loss at follow-up is reported.",
+    "source_occurrences": [
+      "3.1b: PN. Note: 403 students took part in the study, more than 150 were lost at follow-up (37.2%). No specific number of loss at follow-up is reported."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence that the result was not biased by missing data",
+    "source_text": "3.2: PN. Note: No evidence that the result was not biased by missing data",
+    "source_occurrences": [
+      "3.2: PN. Note: No evidence that the result was not biased by missing data"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "3.3: PY;",
+    "source_occurrences": [
+      "3.3: PY;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "The missing data could depend on the outcome's true value",
+    "source_text": "3.4: PY. Note: The missing data could depend on the outcome's true value",
+    "source_occurrences": [
+      "3.4: PY. Note: The missing data could depend on the outcome's true value"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The outcome's internal consistency was reported to be good",
+    "source_text": "4.1: PN. Note: The outcome's internal consistency was reported to be good.",
+    "source_occurrences": [
+      "4.1: PN. Note: The outcome's internal consistency was reported to be good."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that",
+    "source_text": "4.2: PN. Note: No evidence to suggest that.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest that."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a: NI;",
+    "source_occurrences": [
+      "4.3a: NI;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. Note: No information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention",
+    "source_occurrences": [
+      "4.3b: PY. Note: No information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The assesment of the outcome could have been influenced by knowledge of the intervention but there is no readon to belive it did",
+    "source_text": "4.5: PN. Note: The assesment of the outcome could have been influenced by knowledge of the intervention but there is no readon to belive it did",
+    "source_occurrences": [
+      "4.5: PN. Note: The assesment of the outcome could have been influenced by knowledge of the intervention but there is no readon to belive it did"
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"The original study design had sought to map impact and adjustment also with respect to school attendance records and records of academic achievement (term grades).\"",
+    "source_text": "5.2: PY. Quote: \"The original study design had sought to map impact and adjustment also with respect to school attendance records and records of academic achievement (term grades).\"",
+    "source_occurrences": [
+      "5.2: PY. Quote: \"The original study design had sought to map impact and adjustment also with respect to school attendance records and records of academic achievement (term grades).\""
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned and results were reported."
+    ],
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "The study is judged to be at high risk of bias in three domains (2, 3 and 5).",
+    "source_text": "The study is judged to be at high risk of bias in three domains (2, 3 and 5).",
+    "study": "Ager 2011",
+    "topic": "Quality of life at 0-1 months",
+    "topic_slug": "QOL0_1",
+    "analysis_names": [
+      "Quality of life at 0-1 months"
+    ],
+    "csv_row_numbers": [
+      200
+    ]
+  }
+]

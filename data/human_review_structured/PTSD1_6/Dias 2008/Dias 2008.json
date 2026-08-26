@@ -1,0 +1,600 @@
+[
+  {
+    "question_id": "1.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1.1: Y;",
+    "source_occurrences": [
+      "1.1: Y;"
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "1.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"randomization of dyads was carried out by an indipendent person, based on simple random number tables, either to the intervention or waiting list group\"",
+    "source_text": "1.2: PY. Quote: \"randomization of dyads was carried out by an indipendent person, based on simple random number tables, either to the intervention or waiting list group\"",
+    "source_occurrences": [
+      "1.2: PY. Quote: \"randomization of dyads was carried out by an indipendent person, based on simple random number tables, either to the intervention or waiting list group\""
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Not significant differences at baseline",
+    "source_text": "1.3: N. Note: Not significant differences at baseline.",
+    "source_occurrences": [
+      "1.3: N. Note: Not significant differences at baseline."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.1",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "2.1: Y;",
+    "source_occurrences": [
+      "2.1: Y;"
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Participants and personnel were aware of treatment allocation",
+    "source_text": "2.2: Y. Note: Participants and personnel were aware of treatment allocation.",
+    "source_occurrences": [
+      "2.2: Y. Note: Participants and personnel were aware of treatment allocation."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "Quote: \"There were no protocol violations.\"",
+    "source_text": "2.3: NI. Quote: \"There were no protocol violations.\"",
+    "source_occurrences": [
+      "2.3: NI. Quote: \"There were no protocol violations.\""
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No explicit mention of the analysis used to estimate the effect of assignment to intervention",
+    "source_text": "2.6: NI. Note: No explicit mention of the analysis used to estimate the effect of assignment to intervention.",
+    "source_occurrences": [
+      "2.6: NI. Note: No explicit mention of the analysis used to estimate the effect of assignment to intervention."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "27% circa - 22 of 81 drops-out (because the relatives with dementia died)",
+    "source_text": "2.7: PN. 27% circa - 22 of 81 drops-out (because the relatives with dementia died)",
+    "source_occurrences": [
+      "2.7: PN. 27% circa - 22 of 81 drops-out (because the relatives with dementia died)"
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "3.1",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "The dropout rate at 3 months follow-up was: 7 of 41 for intervention group (5 death, 1 refused, 1 shifted); 7 of 40 for control group (6 death, 1 refused, 1 dropout). The dropout rate at 6 months follow up was: 2 of 34 for intervention group (1 death, 1 dropout); 7 of 27 for control group (6 death, 1 shifted)",
+    "source_text": "3.1: PY. Note: The dropout rate at 3 months follow-up was: 7 of 41 for intervention group (5 death, 1 refused, 1 shifted); 7 of 40 for control group (6 death, 1 refused, 1 dropout). The dropout rate at 6 months follow up was: 2 of 34 for intervention group (1 death, 1 dropout); 7 of 27 for control group (6 death, 1 shifted).",
+    "source_occurrences": [
+      "3.1: PY. Note: The dropout rate at 3 months follow-up was: 7 of 41 for intervention group (5 death, 1 refused, 1 shifted); 7 of 40 for control group (6 death, 1 refused, 1 dropout). The dropout rate at 6 months follow up was: 2 of 34 for intervention group (1 death, 1 dropout); 7 of 27 for control group (6 death, 1 shifted)."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "The selected outcome method is widely validated, established and adapted to fit the local context",
+    "source_text": "4.1: N. Note: The selected outcome method is widely validated, established and adapted to fit the local context.",
+    "source_occurrences": [
+      "4.1: N. Note: The selected outcome method is widely validated, established and adapted to fit the local context."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in meaurement between intervention and control group",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in meaurement between intervention and control group.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in meaurement between intervention and control group."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "4.3",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"outcome evaluations were carried out by researchers who were masked to the allocation status until the end of the project. We anticipated that some unmasking would occur because both the intervention and outcome evaluations were home-based.\"",
+    "source_text": "4.3: PY. Quote: \"outcome evaluations were carried out by researchers who were masked to the allocation status until the end of the project. We anticipated that some unmasking would occur because both the intervention and outcome evaluations were home-based.\"",
+    "source_occurrences": [
+      "4.3: PY. Quote: \"outcome evaluations were carried out by researchers who were masked to the allocation status until the end of the project. We anticipated that some unmasking would occur because both the intervention and outcome evaluations were home-based.\""
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Knowledge o fthe assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.4: PY. Note: Knowledge o fthe assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.4: PY. Note: Knowledge o fthe assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "4.5: PN",
+    "source_occurrences": [
+      "4.5: PN"
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, methods and results do not show discrepancies",
+    "source_text": "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: No evidence to suggest otherwise, methods and results do not show discrepancies."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evidence to suggest outcome selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All outcomes mentioned in the methods and results were reported."
+    ],
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in two domains (2 and 4), but not to be at high risk of bias for any domain.",
+    "study": "Dias 2008",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      45
+    ]
+  }
+]

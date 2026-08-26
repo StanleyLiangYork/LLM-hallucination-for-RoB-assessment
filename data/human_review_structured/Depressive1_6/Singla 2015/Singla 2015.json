@@ -1,0 +1,834 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1a.1: Y;",
+    "source_occurrences": [
+      "1a.1: Y;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Randomization was done using computer-generated random numbers by authors not involved in the direct implementation of the intervention",
+    "source_text": "1a.2: PY. Note: Randomization was done using computer-generated random numbers by authors not involved in the direct implementation of the intervention",
+    "source_occurrences": [
+      "1a.2: PY. Note: Randomization was done using computer-generated random numbers by authors not involved in the direct implementation of the intervention"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "1a.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No useful information is reported to evaluate this element",
+    "source_text": "1a.3: NI. Note: No useful information is reported to evaluate this element",
+    "source_occurrences": [
+      "1a.3: NI. Note: No useful information is reported to evaluate this element"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "particpants were recruited after randomization",
+    "source_text": "1b.1: N: particpants were recruited after randomization;",
+    "source_occurrences": [
+      "1b.1: N: particpants were recruited after randomization;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "1b.2",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "there is no evidence to suggest that selection of individual participants was affected by knoweldge of the intervention assigned to the cluster",
+    "source_text": "1b.2: PN- there is no evidence to suggest that selection of individual participants was affected by knoweldge of the intervention assigned to the cluster;",
+    "source_occurrences": [
+      "1b.2: PN- there is no evidence to suggest that selection of individual participants was affected by knoweldge of the intervention assigned to the cluster;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "1b.3",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "groups were comparable at baseline, observed differences are compatible with chance in a cluster design",
+    "source_text": "1b.3:PN - groups were comparable at baseline, observed differences are compatible with chance in a cluster design.",
+    "source_occurrences": [
+      "1b.3:PN - groups were comparable at baseline, observed differences are compatible with chance in a cluster design."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information provided on whether participants for which we are analysing the outcome (parents) knew that they were in a trial",
+    "source_text": "2.1a: NI. No information provided on whether participants for which we are analysing the outcome (parents) knew that they were in a trial.",
+    "source_occurrences": [
+      "2.1a: NI. No information provided on whether participants for which we are analysing the outcome (parents) knew that they were in a trial."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "2.1b: PY;",
+    "source_occurrences": [
+      "2.1b: PY;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"participants (mothers) and implementers were aware of the programme\"",
+    "source_text": "2.2: PY. Quote: \"participants (mothers) and implementers were aware of the programme\"",
+    "source_occurrences": [
+      "2.2: PY. Quote: \"participants (mothers) and implementers were aware of the programme\""
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention that arose because of the trial context",
+    "source_text": "2.3: PN. Note: No evidence to suggest deviations from the intended intervention that arose because of the trial context",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest deviations from the intended intervention that arose because of the trial context"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Data was analysed on an intention-to-treat basis",
+    "source_text": "2.6: Y. Note: Data was analysed on an intention-to-treat basis.",
+    "source_occurrences": [
+      "2.6: Y. Note: Data was analysed on an intention-to-treat basis."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.7: NA.",
+    "source_occurrences": [
+      "2.7: NA."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "data was not avaiable for one cluster out of 12. Quote. \"(15 participants) was removed from the intervention\ngroup because the community volunteer only implemented three sessions before leaving his community\"",
+    "source_text": "3.1aPN: data was not avaiable for one cluster out of 12. Quote. \"(15 participants) was removed from the intervention\ngroup because the community volunteer only implemented three sessions before leaving his community\" ;",
+    "source_occurrences": [
+      "3.1aPN: data was not avaiable for one cluster out of 12. Quote. \"(15 participants) was removed from the intervention\ngroup because the community volunteer only implemented three sessions before leaving his community\" ;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "data were avaiable for almost all randomized participants. Quote: \"At endline, our final sample included 291 (84%) mother–child dyads\"",
+    "source_text": "3.1bPY: data were avaiable for almost all randomized participants. Quote: \"At endline, our final sample included 291 (84%) mother–child dyads\"",
+    "source_occurrences": [
+      "3.1bPY: data were avaiable for almost all randomized participants. Quote: \"At endline, our final sample included 291 (84%) mother–child dyads\""
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence that the result was not biased by missing data",
+    "source_text": "3.2: PN. Note: No evidence that the result was not biased by missing data",
+    "source_occurrences": [
+      "3.2: PN. Note: No evidence that the result was not biased by missing data"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "3.3: PY;",
+    "source_occurrences": [
+      "3.3: PY;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Reasonons for missingness reported indicate that it could depend on its true value, but it is unlikely that it does. The cluster was dropped because the community volounteer leaft the village before completing the intervention",
+    "source_text": "3.4: PN. Note: Reasonons for missingness reported indicate that it could depend on its true value, but it is unlikely that it does. The cluster was dropped because the community volounteer leaft the village before completing the intervention",
+    "source_occurrences": [
+      "3.4: PN. Note: Reasonons for missingness reported indicate that it could depend on its true value, but it is unlikely that it does. The cluster was dropped because the community volounteer leaft the village before completing the intervention"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "The outcome measure is widely established and validated for use across different contexts, included the one of the trial",
+    "source_text": "4.1: PN. Note: The outcome measure is widely established and validated for use across different contexts, included the one of the trial.",
+    "source_occurrences": [
+      "4.1: PN. Note: The outcome measure is widely established and validated for use across different contexts, included the one of the trial."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest that",
+    "source_text": "4.2: PN. Note: No evidence to suggest that.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest that."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "4.3a: NI;",
+    "source_occurrences": [
+      "4.3a: NI;"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention",
+    "source_text": "4.3b: PY. Note: No information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention",
+    "source_occurrences": [
+      "4.3b: PY. Note: No information provided on whether participants knew that they were in a trial, participants were most likely aware of the group allocation due to the nature of the intervention"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY,",
+    "source_occurrences": [
+      "4.4: PY,"
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned intervention could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "No evidence to suggest otherwise, protocol and final article not show discrepancies",
+    "source_text": "5.1: PY. Note: No evidence to suggest otherwise, protocol and final article not show discrepancies.",
+    "source_occurrences": [
+      "5.1: PY. Note: No evidence to suggest otherwise, protocol and final article not show discrepancies."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest outcome selection. Further outcomes than those mentioned in the protocol were reported",
+    "source_text": "5.2: PN. Note: No evidence to suggest outcome selection. Further outcomes than those mentioned in the protocol were reported.",
+    "source_occurrences": [
+      "5.2: PN. Note: No evidence to suggest outcome selection. Further outcomes than those mentioned in the protocol were reported."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All analyses mentioned in the methods and results were reported."
+    ],
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "The study is judged to raise some concerns in two domains (3 and 4), but not to be at high risk of bias for any domain.",
+    "source_text": "The study is judged to raise some concerns in two domains (3 and 4), but not to be at high risk of bias for any domain.",
+    "study": "Singla 2015",
+    "topic": "Depressive symptoms at 1-6 months",
+    "topic_slug": "Depressive1_6",
+    "analysis_names": [
+      "Depressive symptoms at 1-6 months",
+      "Depressive symptoms at 1-6 months—indicated prevention adults"
+    ],
+    "csv_row_numbers": [
+      116,
+      283,
+      331
+    ]
+  }
+]

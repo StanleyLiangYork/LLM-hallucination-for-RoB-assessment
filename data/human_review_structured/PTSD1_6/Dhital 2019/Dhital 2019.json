@@ -1,0 +1,688 @@
+[
+  {
+    "question_id": "1a.1",
+    "canonical_question_id": "1.1",
+    "domain": "Domain 1",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "",
+    "source_text": "1a.1: Y;",
+    "source_occurrences": [
+      "1a.1: Y;"
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "1a.2",
+    "canonical_question_id": "1.2",
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Title mentions RCT design.\nIt was used a random component (opaque envelops).\nQuote: \"Each pair of schools were grouped together and one school from each pair was randomly assigned to either hroup A or B\"",
+    "source_text": "1a.2: PY. Note: Title mentions RCT design.\nIt was used a random component (opaque envelops).\nQuote: \"Each pair of schools were grouped together and one school from each pair was randomly assigned to either hroup A or B\"",
+    "source_occurrences": [
+      "1a.2: PY. Note: Title mentions RCT design.\nIt was used a random component (opaque envelops).\nQuote: \"Each pair of schools were grouped together and one school from each pair was randomly assigned to either hroup A or B\""
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "1.3",
+    "canonical_question_id": "1.3",
+    "domain": "Domain 1",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"No significant difference was identified between intervention and control group\"",
+    "source_text": "1.3: N. Quote: \"No significant difference was identified between intervention and control group\"",
+    "source_occurrences": [
+      "1.3: N. Quote: \"No significant difference was identified between intervention and control group\""
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "1b.1",
+    "canonical_question_id": null,
+    "domain": "Domain 1",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "First, adolescents were considered eligible to partecipate, then were selected throught simple random sampling, and then there was a randomization process of the clusters",
+    "source_text": "1b.1: PY. First, adolescents were considered eligible to partecipate, then were selected throught simple random sampling, and then there was a randomization process of the clusters.",
+    "source_occurrences": [
+      "1b.1: PY. First, adolescents were considered eligible to partecipate, then were selected throught simple random sampling, and then there was a randomization process of the clusters."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "Domain_1_Conclusion",
+    "canonical_question_id": "Domain_1_Conclusion",
+    "domain": "Domain 1",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.1a",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"Written informed consnet were provided by the adolescents who agreed to participate in the study and their guardians\"",
+    "source_text": "2.1a: PY. Quote: \"Written informed consnet were provided by the adolescents who agreed to participate in the study and their guardians\"",
+    "source_occurrences": [
+      "2.1a: PY. Quote: \"Written informed consnet were provided by the adolescents who agreed to participate in the study and their guardians\""
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.1b",
+    "canonical_question_id": "2.1",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Quote: \"Blinding was not done for the intervention because all schools were required to be informed about the intervention\"",
+    "source_text": "2.1b: PY. Quote: \"Blinding was not done for the intervention because all schools were required to be informed about the intervention\"",
+    "source_occurrences": [
+      "2.1b: PY. Quote: \"Blinding was not done for the intervention because all schools were required to be informed about the intervention\""
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.2",
+    "canonical_question_id": "2.2",
+    "domain": "Domain 2",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "People delivering the intervention (teachers) were trained for doing that. They were most likely aware of their assigned intervention",
+    "source_text": "2.2: PY. People delivering the intervention (teachers) were trained for doing that. They were most likely aware of their assigned intervention.",
+    "source_occurrences": [
+      "2.2: PY. People delivering the intervention (teachers) were trained for doing that. They were most likely aware of their assigned intervention."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.3",
+    "canonical_question_id": "2.3",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest deviations from the intended intervention taht arose because of the trial context",
+    "source_text": "2.3: PN. Note: No evidence to suggest deviations from the intended intervention taht arose because of the trial context.",
+    "source_occurrences": [
+      "2.3: PN. Note: No evidence to suggest deviations from the intended intervention taht arose because of the trial context."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.4",
+    "canonical_question_id": "2.4",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.4: NA.",
+    "source_occurrences": [
+      "2.4: NA."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.5",
+    "canonical_question_id": "2.5",
+    "domain": "Domain 2",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "2.5: NA.",
+    "source_occurrences": [
+      "2.5: NA."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.6",
+    "canonical_question_id": "2.6",
+    "domain": "Domain 2",
+    "response": "No information",
+    "response_raw": "NI",
+    "numerical": 1,
+    "comment": "No information provided",
+    "source_text": "2.6: NI. Note: No information provided.",
+    "source_occurrences": [
+      "2.6: NI. Note: No information provided."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "2.7",
+    "canonical_question_id": "2.7",
+    "domain": "Domain 2",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "There is no reason to believe that it did",
+    "source_text": "2.7: PN. Note: There is no reason to believe that it did.",
+    "source_occurrences": [
+      "2.7: PN. Note: There is no reason to believe that it did."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "Domain_2_Conclusion",
+    "canonical_question_id": "Domain_2_Conclusion",
+    "domain": "Domain 2",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "3.1a",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "3.1a: PY.",
+    "source_occurrences": [
+      "3.1a: PY."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "3.1b",
+    "canonical_question_id": "3.1",
+    "domain": "Domain 3",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Dropout rate: 16% for control group; 8 % for intervention group",
+    "source_text": "3.1b: PY. Dropout rate: 16% for control group; 8 % for intervention group",
+    "source_occurrences": [
+      "3.1b: PY. Dropout rate: 16% for control group; 8 % for intervention group"
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "3.2",
+    "canonical_question_id": "3.2",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.2: NA.",
+    "source_occurrences": [
+      "3.2: NA."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "3.3",
+    "canonical_question_id": "3.3",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.3: NA.",
+    "source_occurrences": [
+      "3.3: NA."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "3.4",
+    "canonical_question_id": "3.4",
+    "domain": "Domain 3",
+    "response": "Not Applicable",
+    "response_raw": "NA",
+    "numerical": 0,
+    "comment": "",
+    "source_text": "3.4: NA.",
+    "source_occurrences": [
+      "3.4: NA."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "Domain_3_Conclusion",
+    "canonical_question_id": "Domain_3_Conclusion",
+    "domain": "Domain 3",
+    "response": "Low risk",
+    "response_raw": "Low risk",
+    "numerical": 1,
+    "comment": "",
+    "source_text": "Low risk",
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "4.1",
+    "canonical_question_id": "4.1",
+    "domain": "Domain 4",
+    "response": "No",
+    "response_raw": "N",
+    "numerical": 2,
+    "comment": "Quote: \"We used validated tools (Depression Self-rating Scale) to measure the symptoms scores. (...) The scale has been validated in Nepal\"",
+    "source_text": "4.1: N. Quote: \"We used validated tools (Depression Self-rating Scale) to measure the symptoms scores. (...) The scale has been validated in Nepal\"",
+    "source_occurrences": [
+      "4.1: N. Quote: \"We used validated tools (Depression Self-rating Scale) to measure the symptoms scores. (...) The scale has been validated in Nepal\""
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "4.2",
+    "canonical_question_id": "4.2",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest differences in measurement between intervention and control groups",
+    "source_text": "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control groups.",
+    "source_occurrences": [
+      "4.2: PN. Note: No evidence to suggest differences in measurement between intervention and control groups."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "4.3a",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"the research assistants were trained on data collection and ethical procedures\"",
+    "source_text": "4.3a: Y. Quote: \"the research assistants were trained on data collection and ethical procedures\"",
+    "source_occurrences": [
+      "4.3a: Y. Quote: \"the research assistants were trained on data collection and ethical procedures\""
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "4.3b",
+    "canonical_question_id": "4.3",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "Due to the nature of intervention, ouctome assessors (research assistants + participants) ere most likely aware of the intervention allocation",
+    "source_text": "4.3b: PY. Due to the nature of intervention, ouctome assessors (research assistants + participants) ere most likely aware of the intervention allocation.",
+    "source_occurrences": [
+      "4.3b: PY. Due to the nature of intervention, ouctome assessors (research assistants + participants) ere most likely aware of the intervention allocation."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "4.4",
+    "canonical_question_id": "4.4",
+    "domain": "Domain 4",
+    "response": "Probably Yes",
+    "response_raw": "PY",
+    "numerical": 4,
+    "comment": "",
+    "source_text": "4.4: PY;",
+    "source_occurrences": [
+      "4.4: PY;"
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "4.5",
+    "canonical_question_id": "4.5",
+    "domain": "Domain 4",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "Knowledge of the assigned interventio could influence participant-reported outcomes, but there is no reason to believe that it did",
+    "source_text": "4.5: PN. Note: Knowledge of the assigned interventio could influence participant-reported outcomes, but there is no reason to believe that it did.",
+    "source_occurrences": [
+      "4.5: PN. Note: Knowledge of the assigned interventio could influence participant-reported outcomes, but there is no reason to believe that it did."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "Domain_4_Conclusion",
+    "canonical_question_id": "Domain_4_Conclusion",
+    "domain": "Domain 4",
+    "response": "Some concerns",
+    "response_raw": "Some concerns",
+    "numerical": 2,
+    "comment": "",
+    "source_text": "Some concerns",
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "5.1",
+    "canonical_question_id": "5.1",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "protocol is available",
+    "source_text": "5.1: PN. Note: protocol is available.",
+    "source_occurrences": [
+      "5.1: PN. Note: protocol is available."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "5.2",
+    "canonical_question_id": "5.2",
+    "domain": "Domain 5",
+    "response": "Yes",
+    "response_raw": "Y",
+    "numerical": 5,
+    "comment": "Quote: \"According to the original protocol, this study had aimed at collecting data at 3 months follow-up after the intervention. However, the 3 month follow up was cancelled at the time of data collection due to feasibility problems",
+    "source_text": "5.2: Y. Quote: \"According to the original protocol, this study had aimed at collecting data at 3 months follow-up after the intervention. However, the 3 month follow up was cancelled at the time of data collection due to feasibility problems.",
+    "source_occurrences": [
+      "5.2: Y. Quote: \"According to the original protocol, this study had aimed at collecting data at 3 months follow-up after the intervention. However, the 3 month follow up was cancelled at the time of data collection due to feasibility problems."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "5.3",
+    "canonical_question_id": "5.3",
+    "domain": "Domain 5",
+    "response": "Probably No",
+    "response_raw": "PN",
+    "numerical": 3,
+    "comment": "No evidence to suggest analyses selection. All outcomes mentioned in the methods and protocol were reported",
+    "source_text": "5.3: PN. Note: No evidence to suggest analyses selection. All outcomes mentioned in the methods and protocol were reported.",
+    "source_occurrences": [
+      "5.3: PN. Note: No evidence to suggest analyses selection. All outcomes mentioned in the methods and protocol were reported."
+    ],
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "Domain_5_Conclusion",
+    "canonical_question_id": "Domain_5_Conclusion",
+    "domain": "Domain 5",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "",
+    "source_text": "High risk",
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  },
+  {
+    "question_id": "Overall_risk_of_bias",
+    "canonical_question_id": "Overall_risk_of_bias",
+    "domain": "Overall",
+    "response": "High risk",
+    "response_raw": "High risk",
+    "numerical": 3,
+    "comment": "The study is judged to be at high risk of bias in one domain (5).",
+    "source_text": "The study is judged to be at high risk of bias in one domain (5).",
+    "study": "Dhital 2019",
+    "topic": "Distress/PTSD symptoms at 1-6 months",
+    "topic_slug": "PTSD1_6",
+    "analysis_names": [
+      "Distress/PTSD symptoms at 1-6 months"
+    ],
+    "csv_row_numbers": [
+      211
+    ]
+  }
+]

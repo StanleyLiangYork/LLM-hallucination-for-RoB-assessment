@@ -1,401 +1,241 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""Summarize retrieve-then-verify verdict JSON files into CSV and JSON reports."""
 
-"""
-hallucination_report.py
+from __future__ import annotations
 
-Parse verdict JSONs (one file per study, each a list of items) and compute:
-- Overall counts/rates per verdict class
-- Hallucination rates:
-    * strict:  (Contradicted + Not Found + Out of Scope) / N
-    * conservative: (Contradicted + Not Found) / N
-- Per-study and per-domain breakdowns
-- (Optional) agreement-aware rates (machine vs human label equality)
-- (Optional) retrieval stats if present (BM25 top score)
-
-Usage:
-  python hallucination_report.py --input_dir /path/to/verdict_jsons --save_csv /path/to/outdir
-"""
-
-import os
-import json
 import argparse
-from collections import Counter
+import csv
+import json
+import statistics
+from collections import Counter, defaultdict
+from pathlib import Path
+from typing import Any, Callable, Iterable
 
-try:
-    import pandas as pd
-    _HAS_PD = True
-except Exception:
-    _HAS_PD = False
+from rob_pipeline.io_utils import find_response_jsons, load_json_items
 
 
-# ---------------------------
-# Helpers
-# ---------------------------
-def _norm(s):
-    # robust stringify + strip
-    if isinstance(s, str):
-        return s.strip()
-    if s is None:
-        return ""
-    # last resort
-    return str(s).strip()
+VERDICTS = ("Supported", "Contradicted", "Not Found", "Out of Scope")
 
-def _norm_lower(s):
-    return _norm(s).lower()
 
-def _verdict_normalize(vtext):
-    """
-    Normalize verdict label into one of:
-    Supported, Contradicted, Not Found, Out of Scope, Unknown
-    """
-    v = _norm_lower(vtext)
-    if v == "supported":
-        return "Supported"
-    if v == "contradicted":
-        return "Contradicted"
-    if v in {"not found", "not_found", "notfound"}:
-        return "Not Found"
-    if v in {"out of scope", "out_of_scope", "outofscope"}:
-        return "Out of Scope"
-    return "Unknown" if not v else v.title()
+def normalize_verdict(value: Any) -> str:
+    if isinstance(value, dict):
+        value = value.get("verdict") or value.get("label") or ""
+    text = str(value or "").strip().casefold().replace("_", " ")
+    mapping = {
+        "supported": "Supported",
+        "contradicted": "Contradicted",
+        "not found": "Not Found",
+        "notfound": "Not Found",
+        "out of scope": "Out of Scope",
+        "outofscope": "Out of Scope",
+    }
+    return mapping.get(text, "Unknown")
 
-def _extract_verdict_text(verdict_value):
-    """
-    Verdict can be:
-      - string: "Supported"
-      - dict: {"verdict":"Supported", "quote":"...", "rationale":"..."}
-      - list/tuple of any of the above (be forgiving)
-    Return a string best-effort.
-    """
-    if isinstance(verdict_value, str):
-        return verdict_value
-    if isinstance(verdict_value, dict):
-        for k in ("verdict", "label", "decision", "result"):
-            if k in verdict_value and isinstance(verdict_value[k], str):
-                return verdict_value[k]
-        # fall back to stringified dict
-        return str(verdict_value)
-    if isinstance(verdict_value, (list, tuple)):
-        for el in verdict_value:
-            s = _extract_verdict_text(el)
-            if s:
-                return s
-        return ""
-    # fallback
-    return str(verdict_value) if verdict_value is not None else ""
 
-def _domain_for_qid(qid: str) -> str:
-    q = _norm_lower(qid).replace(" ", "_")
-    if q.startswith("1.") or q.startswith("domain_1"):
-        return "Domain1"
-    if q.startswith("2.") or q.startswith("domain_2"):
-        return "Domain2"
-    if q.startswith("3.") or q.startswith("domain_3"):
-        return "Domain3"
-    if q.startswith("4.") or q.startswith("domain_4"):
-        return "Domain4"
-    if q.startswith("5.") or q.startswith("domain_5"):
-        return "Domain5"
-    if q in {"overall_risk_of_bias", "overall", "overall_bias"}:
-        return "OverallConclusion"
+def domain_for_question(question_id: str) -> str:
+    qid = (question_id or "").strip().casefold().replace(" ", "_")
+    for number in range(1, 6):
+        if qid.startswith(f"{number}.") or qid.startswith(f"domain_{number}"):
+            return f"Domain {number}"
+    if qid in {"overall", "overall_bias", "overall_risk_of_bias"}:
+        return "Overall"
     return "Other"
 
-def _to_str(x):
-    return x if isinstance(x, str) else _norm(x)
 
-def _bm25_top_score(item):
-    """
-    Robustly pull a 'top score' from several possible layouts:
-      - bm25_top_score: float
-      - bm25_topk_scores: [floats]
-      - bm25_hits: [{"score": ...}, ...]
-      - retrieved: [{"score": ...}, ...]
-    Return float or None.
-    """
+def _float(value: Any) -> float | None:
     try:
-        if "bm25_top_score" in item:
-            return float(item["bm25_top_score"])
-    except Exception:
-        pass
+        return float(value)
+    except (TypeError, ValueError):
+        return None
 
-    try:
-        if "bm25_topk_scores" in item and isinstance(item["bm25_topk_scores"], list):
-            vals = [float(x) for x in item["bm25_topk_scores"]]
-            return max(vals) if vals else None
-    except Exception:
-        pass
 
-    for key in ("bm25_hits", "retrieved"):
-        try:
-            hits = item.get(key, None)
-            if isinstance(hits, list):
-                vals = []
-                for h in hits:
-                    if isinstance(h, dict) and "score" in h:
-                        try:
-                            vals.append(float(h["score"]))
-                        except Exception:
-                            pass
-                if vals:
-                    return max(vals)
-        except Exception:
-            pass
-
+def _top_score(item: dict[str, Any]) -> float | None:
+    direct = _float(item.get("bm25_top_score"))
+    if direct is not None:
+        return direct
+    scores = item.get("bm25_topk_scores")
+    if isinstance(scores, list):
+        values = [_float(value) for value in scores]
+        values = [value for value in values if value is not None]
+        return max(values) if values else None
     return None
 
 
-# ---------------------------
-# Core loader
-# ---------------------------
-def load_rows(path: str):
-    """
-    Returns a list of 'rows' (dict) with normalized fields:
-      study, question_id, domain, model_response, human_response, verdict, is_strict_hallucination, is_conservative_hallucination, bm25_top_score
-    """
-    files = []
-    if os.path.isdir(path):
-        for f in os.listdir(path):
-            if f.lower().endswith(".json"):
-                files.append(os.path.join(path, f))
-    else:
-        files.append(path)
+def _mean_topk(item: dict[str, Any]) -> float | None:
+    direct = _float(item.get("bm25_mean_topk"))
+    if direct is not None:
+        return direct
+    scores = item.get("bm25_topk_scores")
+    if isinstance(scores, list):
+        values = [_float(value) for value in scores]
+        values = [value for value in values if value is not None]
+        return statistics.fmean(values) if values else None
+    return None
 
-    rows = []
-    for fp in sorted(files):
+
+def _label(value: Any) -> str:
+    return " ".join(str(value or "").casefold().split())
+
+
+def load_rows(input_root: Path) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for path in find_response_jsons(input_root):
         try:
-            with open(fp, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception as e:
-            print(f"[WARN] Could not read {fp}: {e}")
+            items = load_json_items(path)
+        except Exception as exc:
+            print(f"WARNING: skipped {path}: {exc}")
             continue
-
-        # If a file contains a single dict, wrap it for consistency
-        if isinstance(data, dict):
-            data = [data]
-
-        if not isinstance(data, list):
-            print(f"[WARN] Unexpected JSON structure in {fp}; expected list.")
-            continue
-
-        for item in data:
-            # study naming: accept study_name or study, else from file stem
-            study = item.get("study_name") or item.get("study") or os.path.splitext(os.path.basename(fp))[0]
-            qid = _to_str(item.get("question_id", ""))
-            dom = _domain_for_qid(qid)
-
-            # machine/human label can sometimes be oddly typed; coerce to str
-            mresp = _to_str(item.get("model_response", item.get("machine_response", "")))
-            hresp = _to_str(item.get("human_response", ""))
-
-            # verdict might be string or dict
-            verdict_text = _extract_verdict_text(item.get("verdict", ""))
-            vrd = _verdict_normalize(verdict_text)
-
-            is_strict = int(vrd in {"Contradicted", "Not Found", "Out of Scope"})
-            is_cons = int(vrd in {"Contradicted", "Not Found"})
-
-            rows.append({
-                "study": study,
-                "file": os.path.basename(fp),
-                "question_id": qid,
-                "domain": dom,
-                "model_response": mresp,
-                "human_response": hresp,
-                "verdict": vrd,
-                "is_strict_hallucination": is_strict,
-                "is_conservative_hallucination": is_cons,
-                "agree_with_human": int(_norm_lower(mresp) == _norm_lower(hresp) and _norm_lower(hresp) != ""),
-                "bm25_top_score": _bm25_top_score(item),
-            })
+        for item in items:
+            if not item.get("question_id") or "verdict" not in item:
+                continue
+            verdict = normalize_verdict(item.get("verdict"))
+            machine = str(item.get("machine_response") or item.get("model_response") or "")
+            human = str(item.get("human_response") or "")
+            rows.append(
+                {
+                    "source_file": str(path),
+                    "study": str(item.get("study") or path.stem),
+                    "topic": str(item.get("topic") or ""),
+                    "topic_slug": str(item.get("topic_slug") or ""),
+                    "generator_model": str(item.get("generator_model") or ""),
+                    "judge_model": str(item.get("judge_model") or ""),
+                    "question_id": str(item.get("question_id") or ""),
+                    "domain": domain_for_question(str(item.get("question_id") or "")),
+                    "machine_response": machine,
+                    "human_response": human,
+                    "verdict": verdict,
+                    "is_supported": int(verdict == "Supported"),
+                    "is_conservative_hallucination": int(verdict in {"Contradicted", "Not Found"}),
+                    "is_strict_hallucination": int(verdict in {"Contradicted", "Not Found", "Out of Scope"}),
+                    "agrees_with_human": (
+                        int(_label(machine) == _label(human)) if human.strip() else ""
+                    ),
+                    "bm25_top_score": _top_score(item),
+                    "bm25_mean_topk": _mean_topk(item),
+                    "quote_verified_in_retrieved": item.get("quote_verified_in_retrieved"),
+                }
+            )
     return rows
 
 
-# ---------------------------
-# Aggregations
-# ---------------------------
-def _summarize_block(rows):
-    N = len(rows)
-    vc = Counter(r["verdict"] for r in rows)
-    strict_h = sum(r["is_strict_hallucination"] for r in rows)
-    cons_h = sum(r["is_conservative_hallucination"] for r in rows)
-    support = vc.get("Supported", 0)
+def _mean(values: Iterable[float | None]) -> float | None:
+    clean = [value for value in values if value is not None]
+    return statistics.fmean(clean) if clean else None
 
-    def rate(x): 
-        return (x / N) if N else 0.0
 
+def _sd(values: Iterable[float | None]) -> float | None:
+    clean = [value for value in values if value is not None]
+    return statistics.stdev(clean) if len(clean) > 1 else (0.0 if clean else None)
+
+
+def summarize_block(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    count = len(rows)
+    verdict_counts = Counter(row["verdict"] for row in rows)
+    supported = verdict_counts["Supported"]
+    conservative = sum(row["is_conservative_hallucination"] for row in rows)
+    strict = sum(row["is_strict_hallucination"] for row in rows)
     return {
-        "n_items": N,
-        "supported": support,
-        "contradicted": vc.get("Contradicted", 0),
-        "not_found": vc.get("Not Found", 0),
-        "out_of_scope": vc.get("Out of Scope", 0),
-        "strict_hallucinations": strict_h,
-        "conservative_hallucinations": cons_h,
-        "support_rate": round(rate(support), 4),
-        "conservative_hallucination_rate": round(rate(cons_h), 4),
-        "strict_hallucination_rate": round(rate(strict_h), 4),
-    }
-
-def summarize(rows):
-    overall = _summarize_block(rows)
-
-    # per-study
-    per_study = {}
-    for s in sorted(set(r["study"] for r in rows)):
-        rows_s = [r for r in rows if r["study"] == s]
-        per_study[s] = {"overall": _summarize_block(rows_s)}
-
-    # per-domain
-    per_domain = {}
-    for d in sorted(set(r["domain"] for r in rows)):
-        rows_d = [r for r in rows if r["domain"] == d]
-        per_domain[d] = {"overall": _summarize_block(rows_d)}
-
-    # agreement-aware
-    agree = [r for r in rows if r["agree_with_human"] == 1]
-    disagree = [r for r in rows if r["agree_with_human"] == 0]
-    agree_sum = _summarize_block(agree) if agree else None
-    disagree_sum = _summarize_block(disagree) if disagree else None
-
-    # verdict-wise BM25 (if present)
-    bm25_by_verdict = {}
-    for v in ["Supported", "Contradicted", "Not Found", "Out of Scope"]:
-        vals = [r["bm25_top_score"] for r in rows if r["verdict"] == v and r.get("bm25_top_score") is not None]
-        if vals:
-            bm25_by_verdict[v] = {
-                "count": len(vals),
-                "mean_top_score": sum(vals)/len(vals),
-                "min_top_score": min(vals),
-                "max_top_score": max(vals),
-            }
-
-    return {
-        "overall": overall,
-        "per_study": per_study,
-        "per_domain": per_domain,
-        "agreement_split": {
-            "agree_with_human": agree_sum,
-            "disagree_with_human": disagree_sum
-        },
-        "bm25_by_verdict": bm25_by_verdict
+        "n_items": count,
+        "supported_n": supported,
+        "contradicted_n": verdict_counts["Contradicted"],
+        "not_found_n": verdict_counts["Not Found"],
+        "out_of_scope_n": verdict_counts["Out of Scope"],
+        "unknown_n": verdict_counts["Unknown"],
+        "support_rate": supported / count if count else None,
+        "conservative_hallucination_rate": conservative / count if count else None,
+        "strict_hallucination_rate": strict / count if count else None,
+        "support_percent": 100 * supported / count if count else None,
+        "conservative_hallucination_percent": 100 * conservative / count if count else None,
+        "strict_hallucination_percent": 100 * strict / count if count else None,
+        "mean_bm25_top_score": _mean(row["bm25_top_score"] for row in rows),
+        "sd_bm25_top_score": _sd(row["bm25_top_score"] for row in rows),
+        "mean_bm25_mean_topk": _mean(row["bm25_mean_topk"] for row in rows),
+        "sd_bm25_mean_topk": _sd(row["bm25_mean_topk"] for row in rows),
     }
 
 
-def to_dataframe(rows):
-    if not _HAS_PD:
-        return None
-    return pd.DataFrame(rows)
+def grouped_summary(
+    rows: list[dict[str, Any]], keys: tuple[str, ...]
+) -> list[dict[str, Any]]:
+    groups: dict[tuple[str, ...], list[dict[str, Any]]] = defaultdict(list)
+    for row in rows:
+        groups[tuple(str(row.get(key) or "") for key in keys)].append(row)
+    output = []
+    for group_key, members in sorted(groups.items()):
+        result = dict(zip(keys, group_key))
+        result.update(summarize_block(members))
+        output.append(result)
+    return output
 
 
-# ---------------------------
-# CLI
-# ---------------------------
-def parse_args():
-    ap = argparse.ArgumentParser(description="Quantify hallucination from verdict JSONs.")
-    ap.add_argument("--input_dir", required=True, help="Folder of verdict JSONs (or a single JSON file).")
-    ap.add_argument("--save_csv", default=None, help="If set, write rows.csv, per_study.csv, per_domain.csv here.")
-    return ap.parse_args()
-
-
-def main():
-    args = parse_args()
-    rows = load_rows(args.input_dir)
+def _write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
-        print("[ERROR] No rows loaded. Check --input_dir.")
+        path.write_text("", encoding="utf-8")
         return
+    fields = list(rows[0])
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
 
-    # Print headline
-    summary = summarize(rows)
-    ov = summary["overall"]
-    print("\n=== OVERALL ===")
-    print(f"N items: {ov['n_items']}")
-    print(f"Supported: {ov['supported']}  "
-          f"Contradicted: {ov['contradicted']}  "
-          f"Not Found: {ov['not_found']}  "
-          f"Out of Scope: {ov['out_of_scope']}")
-    print(f"Support rate: {ov['support_rate']:.3f}")
-    print(f"Conservative hallucination rate: {ov['conservative_hallucination_rate']:.3f}")
-    print(f"Strict hallucination rate:       {ov['strict_hallucination_rate']:.3f}")
 
-    # By study
-    print("\n=== BY STUDY (strict hallucination rate) ===")
-    for s, sm in sorted(summary["per_study"].items(), key=lambda kv: kv[0]):
-        print(f"{s:40s}  n={sm['overall']['n_items']:3d}  "
-              f"strict={sm['overall']['strict_hallucination_rate']:.3f}  "
-              f"support={sm['overall']['support_rate']:.3f}")
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Summarize hallucination verdict JSON files.")
+    parser.add_argument("--input", "--input-dir", "--input_dir", dest="input", required=True)
+    parser.add_argument("--output", "--save-csv", "--save_csv", dest="output", required=True)
+    return parser.parse_args()
 
-    # By domain
-    print("\n=== BY DOMAIN (strict hallucination rate) ===")
-    for d, sm in sorted(summary["per_domain"].items(), key=lambda kv: kv[0]):
-        print(f"{d:18s}  n={sm['overall']['n_items']:3d}  "
-              f"strict={sm['overall']['strict_hallucination_rate']:.3f}  "
-              f"support={sm['overall']['support_rate']:.3f}")
 
-    # Agreement-aware
-    print("\n=== AGREEMENT SPLIT ===")
-    ag = summary["agreement_split"]["agree_with_human"]
-    dg = summary["agreement_split"]["disagree_with_human"]
+def main() -> int:
+    args = parse_args()
+    rows = load_rows(Path(args.input))
+    if not rows:
+        raise ValueError(f"No verdict items found under {args.input}")
+    output = Path(args.output)
+    output.mkdir(parents=True, exist_ok=True)
 
-    if ag:
-        print(f"Agree w/ human:     n={ag['n_items']:3d}  "
-              f"strict={ag['strict_hallucination_rate']:.3f}  "
-              f"support={ag['support_rate']:.3f}")
-    else:
-        print("Agree w/ human:     n=0")
+    overall = summarize_block(rows)
+    by_study = grouped_summary(rows, ("study",))
+    by_topic = grouped_summary(rows, ("topic_slug", "topic"))
+    by_model = grouped_summary(rows, ("generator_model",))
+    by_topic_model = grouped_summary(rows, ("topic_slug", "topic", "generator_model"))
+    by_domain = grouped_summary(rows, ("domain", "generator_model"))
+    by_verdict = grouped_summary(rows, ("verdict",))
 
-    if dg:
-        print(f"Disagree w/ human:  n={dg['n_items']:3d}  "
-              f"strict={dg['strict_hallucination_rate']:.3f}  "
-              f"support={dg['support_rate']:.3f}")
-    else:
-        print("Disagree w/ human:  n=0")
+    _write_csv(output / "items.csv", rows)
+    _write_csv(output / "by_study.csv", by_study)
+    _write_csv(output / "by_topic.csv", by_topic)
+    _write_csv(output / "by_model.csv", by_model)
+    _write_csv(output / "by_topic_model.csv", by_topic_model)
+    _write_csv(output / "by_domain.csv", by_domain)
+    _write_csv(output / "bm25_by_verdict.csv", by_verdict)
+    _write_csv(output / "overall.csv", [overall])
+    with (output / "summary.json").open("w", encoding="utf-8") as handle:
+        json.dump(
+            {
+                "overall": overall,
+                "by_topic": by_topic,
+                "by_model": by_model,
+                "by_domain": by_domain,
+                "bm25_by_verdict": by_verdict,
+            },
+            handle,
+            ensure_ascii=False,
+            indent=2,
+        )
+        handle.write("\n")
 
-    # BM25 by verdict (if present)
-    if summary["bm25_by_verdict"]:
-        print("\n=== BM25 TOP-SCORE BY VERDICT (if available) ===")
-        for v, stats in summary["bm25_by_verdict"].items():
-            print(f"{v:14s} count={stats['count']:3d}  "
-                  f"mean_top={stats['mean_top_score']:.3f}  "
-                  f"min={stats['min_top_score']:.3f}  "
-                  f"max={stats['max_top_score']:.3f}")
-
-    # Optional CSVs
-    if args.save_csv:
-        os.makedirs(args.save_csv, exist_ok=True)
-        if _HAS_PD:
-            df = to_dataframe(rows)
-            df.to_csv(os.path.join(args.save_csv, "rows.csv"), index=False)
-
-            roll_cols = ["n_items", "supported", "contradicted", "not_found", "out_of_scope",
-                         "support_rate", "conservative_hallucination_rate", "strict_hallucination_rate"]
-
-            # Per study
-            per_study_rows = []
-            for s, sm in summary["per_study"].items():
-                row = {"study": s}
-                row.update(sm["overall"])
-                per_study_rows.append(row)
-            pd.DataFrame(per_study_rows)[["study"] + roll_cols].to_csv(
-                os.path.join(args.save_csv, "per_study.csv"), index=False
-            )
-
-            # Per domain
-            per_domain_rows = []
-            for d, sm in summary["per_domain"].items():
-                row = {"domain": d}
-                row.update(sm["overall"])
-                per_domain_rows.append(row)
-            pd.DataFrame(per_domain_rows)[["domain"] + roll_cols].to_csv(
-                os.path.join(args.save_csv, "per_domain.csv"), index=False
-            )
-
-            with open(os.path.join(args.save_csv, "overall_summary.json"), "w", encoding="utf-8") as f:
-                json.dump(summary["overall"], f, indent=2)
-            print(f"\n[WROTE] CSVs to {args.save_csv}")
-        else:
-            print("[WARN] pandas not installed; skipping CSV export.")
+    print(f"N items: {overall['n_items']}")
+    print(f"Support rate: {overall['support_percent']:.2f}%")
+    print(
+        "Conservative hallucination rate: "
+        f"{overall['conservative_hallucination_percent']:.2f}%"
+    )
+    print(f"Strict hallucination rate: {overall['strict_hallucination_percent']:.2f}%")
+    print(f"Reports written to {output}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
